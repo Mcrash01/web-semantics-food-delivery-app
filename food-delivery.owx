@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnanasJuice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppleJuice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CategoryFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Champagne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChineseFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Client"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeliveryDriver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DessertDish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fanta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FishFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlatWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrenchFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItalianFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JapaneseFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MainDish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MealType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeatFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MineralWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrangeJuice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OriginFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pepsi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soju"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SparklingWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sprite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StarterDish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VegetarianFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAvailability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAdult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOpen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#servesFood"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#DeliveryDriver"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAdult"/>
+            <Class IRI="#Person"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FoodItem"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#price"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Restaurants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#servesFood"/>
+            <Class IRI="#FoodItem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Alcohol"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnanasJuice"/>
+        <Class IRI="#Juices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppleJuice"/>
+        <Class IRI="#Juices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CategoryFood"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Champagne"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChineseFood"/>
+        <Class IRI="#OriginFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Client"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coca"/>
+        <Class IRI="#Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeliveryDriver"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DessertDish"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drink"/>
+        <Class IRI="#FoodItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fanta"/>
+        <Class IRI="#Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FishFood"/>
+        <Class IRI="#CategoryFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlatWater"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#FoodItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchFood"/>
+        <Class IRI="#OriginFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItalianFood"/>
+        <Class IRI="#OriginFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapaneseFood"/>
+        <Class IRI="#OriginFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juices"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MainDish"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MealType"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeatFood"/>
+        <Class IRI="#CategoryFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MineralWater"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oasis"/>
+        <Class IRI="#Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrangeJuice"/>
+        <Class IRI="#Juices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OriginFood"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pepsi"/>
+        <Class IRI="#Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sake"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soda"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soju"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SparklingWater"/>
+        <Class IRI="#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sprite"/>
+        <Class IRI="#Soda"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StarterDish"/>
+        <Class IRI="#MealType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VegetarianFood"/>
+        <Class IRI="#CategoryFood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Drink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisky"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DessertDish"/>
+        <Class IRI="#MainDish"/>
+        <Class IRI="#StarterDish"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Drink"/>
+        <Class IRI="#Food"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAvailability"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPreference"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOpen"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#servesFood"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasLocation"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPrice"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAdult"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOpen"/>
+        <Class IRI="#Restaurants"/>
+    </ObjectPropertyDomain>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#price"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
