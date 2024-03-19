@@ -1,24 +1,66 @@
 {
     "@context": {
         "schema": "http://schema.org/",
-        "city": "schema:city",
-        "coopcycle_url": "schema:coopcycle_url",
-        "country": "schema:country",
-        "facebook_url": "schema:facebook_url",
-        "latitude": "schema:latitude",
-        "longitude": "schema:longitude",
-        "mail": "schema:mail",
-        "name": "schema:name",
+        "city": {
+            "@id": "schema:city",
+            "@type": "schema:DataType"
+        },
+        "coopcycle_url": {
+            "@id": "schema:coopcycle_url",
+            "@type": "schema:DataType"
+        },
+        "country": {
+            "@id": "schema:country",
+            "@type": "schema:DataType"
+        },
+        "facebook_url": {
+            "@id": "schema:facebook_url",
+            "@type": "schema:DataType"
+        },
+        "latitude": {
+            "@id": "schema:latitude",
+            "@type": "schema:DataType"
+        },
+        "longitude": {
+            "@id": "schema:longitude",
+            "@type": "schema:DataType"
+        },
+        "mail": {
+            "@id": "schema:mail",
+            "@type": "schema:DataType"
+        },
+        "name": {
+            "@id": "schema:name",
+            "@type": "schema:DataType"
+        },
         "en": "schema:en",
         "es": "schema:es",
         "fr": "schema:fr",
         "eu": "schema:eu",
-        "url": "schema:url",
-        "delivery_form_url": "schema:delivery_form_url",
-        "instagram_url": "schema:instagram_url",
-        "logo_src": "schema:logo_src",
-        "twitter_url": "schema:twitter_url",
-        "faceboook_url": "schema:faceboook_url"
+        "url": {
+            "@id": "schema:url",
+            "@type": "schema:DataType"
+        },
+        "delivery_form_url": {
+            "@id": "schema:delivery_form_url",
+            "@type": "schema:DataType"
+        },
+        "instagram_url": {
+            "@id": "schema:instagram_url",
+            "@type": "schema:DataType"
+        },
+        "logo_src": {
+            "@id": "schema:logo_src",
+            "@type": "schema:DataType"
+        },
+        "twitter_url": {
+            "@id": "schema:twitter_url",
+            "@type": "schema:DataType"
+        },
+        "faceboook_url": {
+            "@id": "schema:faceboook_url",
+            "@type": "schema:DataType"
+        }
     },
     "@graph": [
         {
