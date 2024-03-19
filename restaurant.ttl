@@ -1,0 +1,427 @@
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///api/restaurants/13> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/359> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99b52630c2125136586.jpg" ;
+    schema1:description "Spécialités Italiennes - Pizzas" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/24/6024f528d6265.jpg> ;
+    schema1:name "L'Adresse" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "21:15" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:00" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "15.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/13-l-adresse" ] ] ;
+    schema1:sameAs <http://www.ladresse-amiens.fr/> .
+
+<file:///api/restaurants/21> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/784> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99af242e70.jpeg" ;
+    schema1:description """Le Robin Room est une cuisine maison à base de produits frais confectionnés avec amour chaque matin par notre équipe. Vous y trouverez des plats simples, généreux et originaux évoluant  au fil des inspirations métissées de la cheffe et dans le respect de la saisonnalité des produits. \r
+Le Robin Room c’est aussi et avant tout une aventure humaine aux côtés de collaborateurs qui partagent les mêmes valeurs et une passion commune pour les bons produits.""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/65/cd/65cd3b6df2616.png> ;
+    schema1:name "Robin Room" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "10.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/21-robin-room" ] ] ;
+    schema1:sameAs <https://www.robinroomamiens.com/> .
+
+<file:///api/restaurants/22> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/901> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99acc4d1f8.jpg" ;
+    schema1:description """🌺Poke Bowl 🌺\r
+Healthy, fresh and tasty / Home made 🍍\r
+🌴Hawaiian food🌴""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/bc/60bcffb19e0bf.jpg> ;
+    schema1:name "Moana Poké 🌺" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:00" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "11:45" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "18:45" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "12.50" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/22-moana-poke" ] ] ;
+    schema1:sameAs <https://www.instagram.com/moana_poke/> .
+
+<file:///api/restaurants/23> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/1123> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99aa8e4006.jpg" ;
+    schema1:description "Bar - Brasserie" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/d4/60d453c0283d4.jpg> ;
+    schema1:name "La Manufacture" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:30" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "18:45" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "12.50" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/23-la-manufacture" ] ] ;
+    schema1:sameAs <https://la-manufacture-amiens.fr/> .
+
+<file:///api/restaurants/28> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/2461> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99a57e54fb.jpg" ;
+    schema1:description """La véritable cuisine traditionnelle Italienne préparée avec amour par Léo et son équipe.\r
+Pizzas élaborées sur place, tiramisu, cannolo sicilien et bien d'autres plats typiques... De quoi faire un superbe voyage culinaire 😍""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/0b/620b60bf4fef7.png> ;
+    schema1:name "La Mamma Mia" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "13:30" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "11:45" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "21:30" ;
+            schema1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "19:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "15.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/28-la-mamma-mia" ] ] ;
+    schema1:sameAs <https://www.facebook.com/restaurant.italien.amiens/> .
+
+<file:///api/restaurants/30> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/2920> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99b74bc4c8.jpg" ;
+    schema1:description """Mealk vous propose une cantine du midi, épicerie & fromagerie avec un maximum de produits bio & locaux avec pour base des produits laitiers sublimés par une cuisine de savoir faire et de tradition. \r
+\r
+La carte est évolutive en fonction des saisons !""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/3c/623c3c947b9c6.jpeg> ;
+    schema1:name "Mealk" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:45" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "10:30" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "19:00" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "18:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "8.90" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/30-mealk" ] ] ;
+    schema1:sameAs <http://www.mealk.fr/> .
+
+<file:///api/restaurants/31> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/2930> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f999305d232.jpg" ;
+    schema1:description "Chez Via Pizza, nous nous inspirons de la tradition italienne, tout en rajoutant le bon goût à la Française, en vous proposant par exemple la pizza Regina (reine), une invention bien de chez nous. Notre carte en un subtil mélange de ces deux cultures pour le plaisir des grandes et des petites faims." ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/4b/624b439d98d71.jpg> ;
+    schema1:name "Via Pizza" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:15" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:30" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "21:45" ;
+            schema1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "19:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "12.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/31-via-pizza" ] ] ;
+    schema1:sameAs <https://viapizza.fr/> .
+
+<file:///api/restaurants/34> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/6225> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f998f2eb3d8.jpg" ;
+    schema1:description """Ici tout est fait maison avec des produits frais et locaux ou importés directement  d'Italie.\r
+Notre Ristorante Italien Chez Rosa, vous accueillera dans une ambiance conviviale et familiale.\r
+Vous pourrez y déguster de délicieuses pizzas et spécialités Italiennes.""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/65/cd/65cd3b5a0ad45.jpg> ;
+    schema1:name "Chez Rosa" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:15" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:00" ;
+            schema1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "14:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "12.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa" ] ] ;
+    schema1:sameAs <https://chez-rosa.eatbu.com/?lang=fr> .
+
+<file:///api/restaurants/35> a schema1:Restaurant ;
+    schema1:address <file:///api/addresses/10908> ;
+    schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f998caabbf8.jpg" ;
+    schema1:description """Pizza de tradition depuis 1971 !  🇮🇹  Depuis 50 ans, la pizzeria Le Teuf à Amiens vous accueille pour partager son savoir faire. Des savoureuses pizzas préparées et cuites devant vous dans la pure tradition italienne et dans une ambiance conviviale ! \r
+\r
+© Franck Burges""" ;
+    schema1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/90/6490679b3b650.jpg> ;
+    schema1:name "Le Teuf" ;
+    schema1:openingHoursSpecification [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "21:30" ;
+            schema1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "22:00" ;
+            schema1:dayOfWeek "Friday",
+                "Saturday" ;
+            schema1:opens "19:00" ],
+        [ a schema1:OpeningHoursSpecification ;
+            schema1:closes "13:35" ;
+            schema1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            schema1:opens "12:00" ] ;
+    schema1:potentialAction [ a schema1:OrderAction ;
+            schema1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            schema1:priceSpecification [ a schema1:DeliveryChargeSpecification ;
+                    schema1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    schema1:eligibleTransactionVolume [ a schema1:PriceSpecification ;
+                            schema1:price "15.00" ;
+                            schema1:priceCurrency "EUR" ] ;
+                    schema1:price "3.50" ;
+                    schema1:priceCurrency "EUR" ] ;
+            schema1:target [ a schema1:EntryPoint ;
+                    schema1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    schema1:inLanguage "fr" ;
+                    schema1:urlTemplate "https://beefast.coopcycle.org/fr/restaurant/35-le-teuf" ] ] ;
+    schema1:sameAs <https://leteuf.fr/> .
+
+<file:///api/addresses/10908> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.99063e+01 ;
+            schema1:longitude 2.308827e+00 ] ;
+    schema1:name "Le Teuf" ;
+    schema1:streetAddress "105 Rue Lucien Lecointe, Amiens, France" ;
+    schema1:telephone "+33322434391" .
+
+<file:///api/addresses/1123> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.98951e+01 ;
+            schema1:longitude 2.29528e+00 ] ;
+    schema1:name "La Manufacture" ;
+    schema1:streetAddress "5 Rue de Metz, 80000 Amiens, France" ;
+    schema1:telephone "+33322516025" .
+
+<file:///api/addresses/2461> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.988921e+01 ;
+            schema1:longitude 2.281453e+00 ] ;
+    schema1:name "La Mamma Mia" ;
+    schema1:streetAddress "169 Avenue du Général Foy, 80000 Amiens, France" ;
+    schema1:telephone "+33954171211" .
+
+<file:///api/addresses/2920> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.987554e+01 ;
+            schema1:longitude 2.277711e+00 ] ;
+    schema1:name "Mealk" ;
+    schema1:streetAddress "14 Avenue Paul Claudel, 80000 Amiens, France" ;
+    schema1:telephone "+33322724071" .
+
+<file:///api/addresses/2930> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.98939e+01 ;
+            schema1:longitude 2.29834e+00 ] ;
+    schema1:name "Via Pizza" ;
+    schema1:streetAddress "5 Rue des Sergents, 80000 Amiens, France" ;
+    schema1:telephone "+33322918300" .
+
+<file:///api/addresses/359> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.98905e+01 ;
+            schema1:longitude 2.30171e+00 ] ;
+    schema1:name "L'Adresse" ;
+    schema1:streetAddress "70 Rue des Jacobins, 80000 Amiens, France" ;
+    schema1:telephone "+33360604941" .
+
+<file:///api/addresses/6225> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.989562e+01 ;
+            schema1:longitude 2.299867e+00 ] ;
+    schema1:name "Chez Rosa" ;
+    schema1:streetAddress "12 Rue Flatters, Amiens, France" ;
+    schema1:telephone "+33322500221" .
+
+<file:///api/addresses/784> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.98953e+01 ;
+            schema1:longitude 2.29935e+00 ] ;
+    schema1:name "Robin Room" ;
+    schema1:streetAddress "9 Rue Flatters, 80000 Amiens, France" ;
+    schema1:telephone "+33322439035" .
+
+<file:///api/addresses/901> a schema1:PostalAddress ;
+    schema1:geo [ a schema1:GeoCoordinates ;
+            schema1:latitude 4.98934e+01 ;
+            schema1:longitude 2.29413e+00 ] ;
+    schema1:name "Moana Poké 🌺" ;
+    schema1:streetAddress "5 Rue Henri Barbusse, 80000 Amiens, France" ;
+    schema1:telephone "+33674489174" .
+
