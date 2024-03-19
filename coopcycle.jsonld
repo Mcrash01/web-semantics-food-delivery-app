@@ -22,6 +22,7 @@
     },
     "@graph": [
         {
+            "@id": "A2ROO",
             "@type": "schema:LocalBusiness",
             "city": "Dijon",
             "coopcycle_url": "https://a2roo.coopcycle.org",
@@ -38,6 +39,7 @@
             "url": "https://www.a2roo-dijon.fr/"
         },
         {
+            "@id": "Beefast",
             "@type": "schema:LocalBusiness",
             "city": "Amiens",
             "coopcycle_url": "https://beefast.coopcycle.org",
@@ -54,6 +56,7 @@
             "url": "https://www.beefast.fr/"
         },
         {
+            "@id": "Belo Livraison",
             "@type": "schema:LocalBusiness",
             "city": "Concarneau",
             "coopcycle_url": "https://belo.coopcycle.org",
@@ -69,6 +72,7 @@
             "url": "https://belolivraison.fr"
         },
         {
+            "@id": "Bicientrega",
             "@type": "schema:LocalBusiness",
             "city": "Ciudad de M\u00c3\u00a9xico - BiciEntrega",
             "country": "mx",
@@ -82,6 +86,7 @@
             "twitter_url": "https://twitter.com/bicientregamx"
         },
         {
+            "@id": "Biclooo",
             "@type": "schema:LocalBusiness",
             "city": "Rodez",
             "coopcycle_url": "https://biclooo.coopcycle.org",
@@ -96,6 +101,7 @@
             "url": "http://www.biclooo.fr/"
         },
         {
+            "@id": "Bikexpress",
             "@type": "schema:LocalBusiness",
             "city": "Getafe",
             "country": "es",
@@ -107,6 +113,7 @@
             "name": "Bikexpress"
         },
         {
+            "@id": "Botxoriders",
             "@type": "schema:LocalBusiness",
             "city": "Bilbao",
             "coopcycle_url": "https://botxoriders.coopcycle.org",
@@ -120,6 +127,7 @@
             "url": "https://botxoriders.com/"
         },
         {
+            "@id": "Cat-Kurierkollektiv",
             "@type": "schema:LocalBusiness",
             "city": "Halle",
             "coopcycle_url": "https://cat.coopcycle.org",
@@ -135,6 +143,7 @@
             "url": "https://cat-kurierkollektiv.de/"
         },
         {
+            "@id": "Chorlton Bike Deliveries",
             "@type": "schema:LocalBusiness",
             "city": "Manchester",
             "coopcycle_url": "https://chorlton-bike-deliveries.coopcycle.org",
@@ -146,6 +155,7 @@
             "name": "Chorlton Bike Deliveries"
         },
         {
+            "@id": "CoinCide",
             "@type": "schema:LocalBusiness",
             "city": "Saint-Denis",
             "country": "fr",
@@ -158,6 +168,7 @@
             "url": "https://about.me/co1cide"
         },
         {
+            "@id": "Colibri",
             "@type": "schema:LocalBusiness",
             "city": "Napoli",
             "coopcycle_url": "https://colibri.coopcycle.org",
@@ -168,6 +179,7 @@
             "name": "Colibri"
         },
         {
+            "@id": "ColisCyclette",
             "@type": "schema:LocalBusiness",
             "city": "Carpentras",
             "country": "fr",
@@ -183,6 +195,7 @@
             "url": "http://coliscyclette.fr"
         },
         {
+            "@id": "CoopVeliv",
             "@type": "schema:LocalBusiness",
             "city": "Lyon",
             "country": "fr",
@@ -196,6 +209,7 @@
             "url": "http://coop-veliv.fr/"
         },
         {
+            "@id": "CROW Collective",
             "@type": "schema:LocalBusiness",
             "city": "Berlin",
             "country": "de",
@@ -212,6 +226,7 @@
             "url": "https://www.crowberlin.de"
         },
         {
+            "@id": "CYCLOME",
             "@type": "schema:LocalBusiness",
             "city": "Clermont-Ferrand",
             "coopcycle_url": "https://cyclome.coopcycle.org",
@@ -228,6 +243,7 @@
             "url": "https://cyclome.fr/"
         },
         {
+            "@id": "Les Coursiers Dinannais",
             "@type": "schema:LocalBusiness",
             "city": "Dinan",
             "coopcycle_url": "https://dinan.coopcycle.org",
@@ -243,6 +259,7 @@
             }
         },
         {
+            "@id": "Dring",
             "@type": "schema:LocalBusiness",
             "city": "Ch\u00c3\u00a2tillon",
             "coopcycle_url": "https://initiative-emploi.coopcycle.org",
@@ -257,6 +274,7 @@
             }
         },
         {
+            "@id": "Envici",
             "@type": "schema:LocalBusiness",
             "city": "Puebla",
             "coopcycle_url": "https://envici.coopcycle.org",
@@ -269,6 +287,7 @@
             "name": "Envici"
         },
         {
+            "@id": "Eraman Repartos Gasteiz",
             "@type": "schema:LocalBusiness",
             "city": "Vitoria-Gasteiz",
             "coopcycle_url": "https://eramangasteiz.coopcycle.org",
@@ -284,6 +303,7 @@
             "url": "http://www.eraman.coop/"
         },
         {
+            "@id": "FACTTIC",
             "@type": "schema:LocalBusiness",
             "city": "Buenos Aires",
             "coopcycle_url": "https://demo.coopcycle.org",
@@ -301,6 +321,7 @@
             "url": "https://facttic.org.ar/"
         },
         {
+            "@id": "Fast and Curious",
             "@type": "schema:LocalBusiness",
             "city": "Le Havre",
             "coopcycle_url": "https://fast-and-curious.coopcycle.org",
@@ -317,6 +338,7 @@
             "url": "https://fast-and-curious.fr"
         },
         {
+            "@id": "Feel \u00c3\u00a0 V\u00c3\u00a9lo",
             "@type": "schema:LocalBusiness",
             "city": "Lorient",
             "coopcycle_url": "https://feelavelo.coopcycle.org",
@@ -331,6 +353,7 @@
             "url": "http://www.feelavelo.fr/"
         },
         {
+            "@id": "Hotline Couriers",
             "@type": "schema:LocalBusiness",
             "city": "Sydney",
             "coopcycle_url": "https://hotlinecouriers.coopcycle.org",
@@ -343,6 +366,7 @@
             "url": "https://hotlinecouriers.com.au/"
         },
         {
+            "@id": "Huelva Vence",
             "@type": "schema:LocalBusiness",
             "city": "Huelva",
             "country": "es",
@@ -352,6 +376,7 @@
             "name": "Huelva Vence"
         },
         {
+            "@id": "Hull Delivery Coop",
             "@type": "schema:LocalBusiness",
             "city": "Hull",
             "coopcycle_url": "https://hull.coopcycle.org",
@@ -362,6 +387,7 @@
             "name": "Hull Delivery Coop"
         },
         {
+            "@id": "Khora",
             "@type": "schema:LocalBusiness",
             "city": "Berlin",
             "coopcycle_url": "https://khora.berlin",
@@ -377,6 +403,7 @@
             "url": "https://khora.berlin/de/"
         },
         {
+            "@id": "Kooglof",
             "@type": "schema:LocalBusiness",
             "city": "Strasbourg",
             "coopcycle_url": "https://kooglof.coopcycle.org",
@@ -392,6 +419,7 @@
             "url": "https://kooglof.fr/"
         },
         {
+            "@id": "La Pajara",
             "@type": "schema:LocalBusiness",
             "city": "Madrid",
             "coopcycle_url": "https://lapajara.coopcycle.org",
@@ -408,6 +436,7 @@
             "url": "https://lapajaraenbici.com/"
         },
         {
+            "@id": "La roue libre",
             "@type": "schema:LocalBusiness",
             "city": "Montr\u00c3\u00a9al",
             "country": "ca",
@@ -424,6 +453,7 @@
             "url": "https://www.larouelibre.org"
         },
         {
+            "@id": "La Cocotte",
             "@type": "schema:LocalBusiness",
             "city": "Toulon",
             "coopcycle_url": "https://la-cocotte.coopcycle.org",
@@ -439,6 +469,7 @@
             "url": "http://www.cocottelivraison.fr/"
         },
         {
+            "@id": "Les Coursiers Rennais",
             "@type": "schema:LocalBusiness",
             "city": "Rennes",
             "coopcycle_url": "https://lcr.coopcycle.org",
@@ -455,6 +486,7 @@
             }
         },
         {
+            "@id": "COCO Collectif de Coursiers Orl\u00c3\u00a9anais ",
             "@type": "schema:LocalBusiness",
             "city": "Orl\u00c3\u00a9ans",
             "coopcycle_url": "https://le-rayon-vert.coopcycle.org",
@@ -471,6 +503,7 @@
             "url": "http://www.coco-coop.org/"
         },
         {
+            "@id": "Les Coursiers Bordelais",
             "@type": "schema:LocalBusiness",
             "city": "Bordeaux",
             "coopcycle_url": "https://coursiersbordelais.coopcycle.org",
@@ -487,6 +520,7 @@
             "url": "http://coursiersbordelais.fr"
         },
         {
+            "@id": "Les Coursiers Brestois",
             "@type": "schema:LocalBusiness",
             "city": "Brest",
             "coopcycle_url": "https://lescoursiersbrestois.coopcycle.org",
@@ -503,6 +537,7 @@
             "url": "http://lescoursiersbrestois.bzh/"
         },
         {
+            "@id": "Les coursiers Metz",
             "@type": "schema:LocalBusiness",
             "city": "Metz",
             "coopcycle_url": "https://coursiers-metz.coopcycle.org",
@@ -514,6 +549,7 @@
             "name": "Les coursiers Metz"
         },
         {
+            "@id": "Les Coursiers Montpelli\u00c3\u00a9rains",
             "@type": "schema:LocalBusiness",
             "city": "Montpellier",
             "coopcycle_url": "https://coursiersmontpellier.coopcycle.org",
@@ -529,6 +565,7 @@
             "url": "http://coursiers-montpellier.fr"
         },
         {
+            "@id": "Les Coursiers Nanc\u00c3\u00a9iens",
             "@type": "schema:LocalBusiness",
             "city": "Nancy - Les Coursiers Nanc\u00c3\u00a9iens",
             "coopcycle_url": "https://lescoursiersnanceiens.coopcycle.org",
@@ -541,6 +578,7 @@
             "url": "https://lescoursiersnanceiens.fr/"
         },
         {
+            "@id": "Les Coursiers Nantais",
             "@type": "schema:LocalBusiness",
             "city": "Nantes - Les Coursiers Nantais",
             "coopcycle_url": "https://lescoursiersnantais.coopcycle.org",
@@ -554,6 +592,7 @@
             "url": "http://lescoursiersnantais.fr/"
         },
         {
+            "@id": "Les Coursiers St\u00c3\u00a9phanois",
             "@type": "schema:LocalBusiness",
             "city": "Saint-\u00c3\u2030tienne",
             "coopcycle_url": "https://coursiers-stephanois.coopcycle.org",
@@ -569,6 +608,7 @@
             "url": "https://www.coursiers-stephanois.fr/"
         },
         {
+            "@id": "Breizh V\u00c3\u00a9lo - Quimper",
             "@type": "schema:LocalBusiness",
             "city": "Quimper",
             "coopcycle_url": "https://lescoursiersbzh.coopcycle.org",
@@ -585,6 +625,7 @@
             "url": "https://breizh-velo.fr/"
         },
         {
+            "@id": "Libelubike",
             "@type": "schema:LocalBusiness",
             "city": "Puerto de Veracruz",
             "coopcycle_url": "https://libelubike.coopcycle.org",
@@ -604,6 +645,7 @@
             "url": "https://libelubike.com.mx"
         },
         {
+            "@id": "Lille.bike",
             "@type": "schema:LocalBusiness",
             "city": "Lille / Roubaix",
             "coopcycle_url": "https://lille.coopcycle.org",
@@ -616,6 +658,7 @@
             "url": "http://lille.bike"
         },
         {
+            "@id": "Wings: ethical food delivery",
             "@type": "schema:LocalBusiness",
             "city": "London",
             "coopcycle_url": "https://london.coopcycle.org",
@@ -628,6 +671,7 @@
             "url": "https://www.wings.coop/"
         },
         {
+            "@id": "Mensakas",
             "@type": "schema:LocalBusiness",
             "city": "Barcelona",
             "coopcycle_url": "https://mensakas.coopcycle.org",
@@ -645,6 +689,7 @@
             "url": "https://www.mensakas.com/"
         },
         {
+            "@id": "Molenbike",
             "@type": "schema:LocalBusiness",
             "city": "Molenbeek, Brussels",
             "country": "be",
@@ -661,6 +706,7 @@
             "url": "https://molenbike.be"
         },
         {
+            "@id": "Naofood",
             "@type": "schema:LocalBusiness",
             "city": "Nantes - Naofood",
             "coopcycle_url": "https://naofood.coopcycle.org",
@@ -674,6 +720,7 @@
             "url": "https://naofood.fr/"
         },
         {
+            "@id": "Narv\u00c3\u00a9los",
             "@type": "schema:LocalBusiness",
             "city": "Montreuil",
             "country": "fr",
@@ -690,6 +737,7 @@
             "url": "https://www.narvelos.fr/"
         },
         {
+            "@id": "KroKoop",
             "@type": "schema:LocalBusiness",
             "city": "N\u00c3\u00aemes",
             "coopcycle_url": "https://krokoop.coopcycle.org",
@@ -703,6 +751,7 @@
             }
         },
         {
+            "@id": "Les Coursiers Niortais",
             "@type": "schema:LocalBusiness",
             "city": "Niort",
             "coopcycle_url": "https://niort.coopcycle.org",
@@ -717,6 +766,7 @@
             }
         },
         {
+            "@id": "No bad days",
             "@type": "schema:LocalBusiness",
             "city": "Aarhus",
             "country": "dk",
@@ -728,6 +778,7 @@
             "url": "https://www.nbdcykelbud.nu/"
         },
         {
+            "@id": "Orl\u00c3\u00a9ans Cycloposteurs",
             "@type": "schema:LocalBusiness",
             "city": "Orl\u00c3\u00a9ans",
             "country": "fr",
@@ -738,6 +789,7 @@
             "name": "Orl\u00c3\u00a9ans Cycloposteurs"
         },
         {
+            "@id": "Por La Chita",
             "@type": "schema:LocalBusiness",
             "city": "Concepci\u00c3\u00b3n",
             "coopcycle_url": "https://porlachita.coopcycle.org",
@@ -752,6 +804,7 @@
             "url": "https://porlachita.cl/"
         },
         {
+            "@id": "RAYON9",
             "@type": "schema:LocalBusiness",
             "city": "Li\u00c3\u00a8ge",
             "coopcycle_url": "https://rayon9.coopcycle.org",
@@ -767,6 +820,7 @@
             "url": "https://rayon9.be"
         },
         {
+            "@id": "Les Cyclopes",
             "@type": "schema:LocalBusiness",
             "city": "Epinay",
             "country": "fr",
@@ -781,6 +835,7 @@
             "url": "https://www.lescyclopes.fr/"
         },
         {
+            "@id": "Robin Food",
             "@type": "schema:LocalBusiness",
             "city": "Firenze",
             "coopcycle_url": "https://robinfood.coopcycle.org",
@@ -794,6 +849,7 @@
             "url": "https://www.robinfoodfirenze.it/"
         },
         {
+            "@id": "S!cklo",
             "@type": "schema:LocalBusiness",
             "city": "Grenoble",
             "coopcycle_url": "https://sicklo.coopcycle.org",
@@ -808,6 +864,7 @@
             "url": "https://sicklo.fr/"
         },
         {
+            "@id": "La S\u00c3\u00a0rria",
             "@type": "schema:LocalBusiness",
             "city": "Sabadell",
             "country": "es",
@@ -820,6 +877,7 @@
             "url": "http://lasarria.cat/"
         },
         {
+            "@id": "Les Coliporteurs Nazairiens",
             "@type": "schema:LocalBusiness",
             "city": "Saint Nazaire",
             "coopcycle_url": "https://lescoliporteursnz.coopcycle.org",
@@ -833,6 +891,7 @@
             "url": "https://www.lescoliporteursnz.fr/"
         },
         {
+            "@id": "Samo",
             "@type": "schema:LocalBusiness",
             "city": "Saint-Maur-des-Foss\u00c3\u00a9s",
             "coopcycle_url": "https://samo.coopcycle.org",
@@ -847,6 +906,7 @@
             }
         },
         {
+            "@id": "Shift Delivery Co-op",
             "@type": "schema:LocalBusiness",
             "city": "Vancouver",
             "coopcycle_url": "https://shift.coopcycle.org",
@@ -862,6 +922,7 @@
             "url": "https://shift.coop/"
         },
         {
+            "@id": "SIRApps Uni\u00c3\u00b3n Mexicana de Bicimensajeros por Aplicaci\u00c3\u00b3n",
             "@type": "schema:LocalBusiness",
             "city": "Ciudad de M\u00c3\u00a9xico - SIRApps",
             "coopcycle_url": "https://sirapps-cdmx.coopcycle.org",
@@ -879,6 +940,7 @@
             }
         },
         {
+            "@id": "TIG Bicimensajer\u00c3\u00ada",
             "@type": "schema:LocalBusiness",
             "city": "Ciudad de M\u00c3\u00a9xico - TIG",
             "coopcycle_url": "https://tig.coopcycle.org",
@@ -897,6 +959,7 @@
             "url": "https://www.tigcdmx.com/"
         },
         {
+            "@id": "TLOK",
             "@type": "schema:LocalBusiness",
             "city": "Ciudad de M\u00c3\u00a9xico - Tlok",
             "country": "mx",
@@ -911,6 +974,7 @@
             "url": "https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I"
         },
         {
+            "@id": "Tours N Messengers",
             "@type": "schema:LocalBusiness",
             "city": "Tours",
             "country": "fr",
@@ -921,6 +985,7 @@
             "url": "https://www.toursnmessengers.fr/"
         },
         {
+            "@id": "Toutenv\u00c3\u00a9lo Grenoble",
             "@type": "schema:LocalBusiness",
             "city": "Grenoble",
             "country": "fr",
@@ -931,6 +996,7 @@
             "url": "http://www.toutenvelo.fr/toutenvelo-grenoble"
         },
         {
+            "@id": "Toutenv\u00c3\u00a9lo Marseille",
             "@type": "schema:LocalBusiness",
             "city": "Marseille",
             "country": "fr",
@@ -945,6 +1011,7 @@
             "url": "http://www.toutenvelo.fr/toutenvelo-marseille"
         },
         {
+            "@id": "Tricargo",
             "@type": "schema:LocalBusiness",
             "city": "Hambourg",
             "country": "de",
@@ -960,6 +1027,7 @@
             "url": "https://tricargo.de/"
         },
         {
+            "@id": "Two Wheel Collective",
             "@type": "schema:LocalBusiness",
             "city": "Ciudad de M\u00c3\u00a9xico - TWC",
             "coopcycle_url": "https://twc.coopcycle.org",
@@ -977,6 +1045,7 @@
             }
         },
         {
+            "@id": "Velo",
             "@type": "schema:LocalBusiness",
             "city": "Sevilla",
             "country": "es",
@@ -986,6 +1055,7 @@
             "name": "Velo"
         },
         {
+            "@id": "York Collective",
             "@type": "schema:LocalBusiness",
             "city": "York",
             "coopcycle_url": "https://york.coopcycle.org",
@@ -1002,6 +1072,7 @@
             "url": "https://www.facebook.com/yorkcollective"
         },
         {
+            "@id": "Zampate",
             "@type": "schema:LocalBusiness",
             "city": "Zaragoza",
             "coopcycle_url": "https://zampate.coopcycle.org",
@@ -1019,6 +1090,7 @@
             "url": "https://zampatezaragoza.com"
         },
         {
+            "@id": "Ziclo-P",
             "@type": "schema:LocalBusiness",
             "city": "Pamplona/Iru\u00c3\u00b1a",
             "coopcycle_url": "https://ziclop.coopcycle.org",
