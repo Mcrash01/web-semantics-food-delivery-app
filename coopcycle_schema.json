@@ -1,0 +1,78 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "coopcycle_url": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "facebook_url": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "mail": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "text": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "string"
+            },
+            "es": {
+              "type": "string"
+            },
+            "fr": {
+              "type": "string"
+            },
+            "eu": {
+              "type": "string"
+            }
+          },
+          "required": []
+        },
+        "url": {
+          "type": "string"
+        },
+        "delivery_form_url": {
+          "type": "string"
+        },
+        "instagram_url": {
+          "type": "string"
+        },
+        "logo_src": {
+          "type": "string"
+        },
+        "twitter_url": {
+          "type": "string"
+        },
+        "faceboook_url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "city",
+        "country",
+        "latitude",
+        "longitude",
+        "name"
+      ]
+    }
+  }
+  
