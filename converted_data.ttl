@@ -1,774 +1,523 @@
-@prefix schema1: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@base <http://www.w3.org/2002/07/owl#> .
 
-[] a schema1:LocalBusiness ;
-    schema1:city "Puerto de Veracruz" ;
-    schema1:coopcycle_url "https://libelubike.coopcycle.org" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://libelubike.coopcycle.org/es/forms/rQJjO7yBWVdg" ;
-    schema1:facebook_url "https://www.facebook.com/Libelubikemx/" ;
-    schema1:instagram_url "https://www.instagram.com/libelubikemx" ;
-    schema1:latitude 1.919606e+01 ;
-    schema1:logo_src "/images/coop-logos/logo-libelubike.png" ;
-    schema1:longitude -9.614487e+01 ;
-    schema1:mail "contacto@libelubike.com.mx" ;
-    schema1:name "Libelubike" ;
-    schema1:twitter_url "https://twitter.com/libelubikemx" ;
-    schema1:url "https://libelubike.com.mx" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Manchester" ;
-    schema1:coopcycle_url "https://chorlton-bike-deliveries.coopcycle.org" ;
-    schema1:country "gb" ;
-    schema1:faceboook_url "https://www.facebook.com/chorltonbikedeliveries/" ;
-    schema1:latitude 5.344478e+01 ;
-    schema1:longitude -2.279002e+00 ;
-    schema1:mail "chorltonbikedeliveries@gmail.com" ;
-    schema1:name "Chorlton Bike Deliveries" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Concepción" ;
-    schema1:coopcycle_url "https://porlachita.coopcycle.org" ;
-    schema1:country "cl" ;
-    schema1:latitude -3.682349e+01 ;
-    schema1:longitude -7.304634e+01 ;
-    schema1:mail "contacto@porlachita.cl" ;
-    schema1:name "Por La Chita" ;
-    schema1:url "https://porlachita.cl/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Nantes - Les Coursiers Nantais" ;
-    schema1:coopcycle_url "https://lescoursiersnantais.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescoursiersnantais/" ;
-    schema1:latitude 4.720419e+01 ;
-    schema1:longitude -1.548423e+00 ;
-    schema1:mail "contact@lescoursiersnantais.fr" ;
-    schema1:name "Les Coursiers Nantais" ;
-    schema1:twitter_url "https://twitter.com/coursiersnantes" ;
-    schema1:url "http://lescoursiersnantais.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Strasbourg" ;
-    schema1:coopcycle_url "https://kooglof.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/kooglof/" ;
-    schema1:instagram_url "https://www.instagram.com/kooglof_livraison/" ;
-    schema1:latitude 4.85833e+01 ;
-    schema1:longitude 7.75e+00 ;
-    schema1:name "Kooglof" ;
-    schema1:url "https://kooglof.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Barcelona" ;
-    schema1:coopcycle_url "https://mensakas.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:facebook_url "https://www.facebook.com/Mensakas/" ;
-    schema1:latitude 4.138506e+01 ;
-    schema1:longitude 2.173404e+00 ;
-    schema1:mail "info@mensakas.com" ;
-    schema1:name "Mensakas" ;
-    schema1:twitter_url "https://twitter.com/MensakasApp" ;
-    schema1:url "https://www.mensakas.com/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Lille / Roubaix" ;
-    schema1:coopcycle_url "https://lille.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lillepointbike/" ;
-    schema1:latitude 5.063116e+01 ;
-    schema1:longitude 2.97712e+00 ;
-    schema1:mail "contact@lille.bike" ;
-    schema1:name "Lille.bike" ;
-    schema1:url "http://lille.bike" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Hambourg" ;
-    schema1:country "de" ;
-    schema1:instagram_url "https://www.instagram.com/hh_tricargo.de/" ;
-    schema1:latitude 5.355865e+01 ;
-    schema1:longitude 9.647638e+00 ;
-    schema1:mail "info@tricargo.de" ;
-    schema1:name "Tricargo" ;
-    schema1:twitter_url "https://twitter.com/tricargo_de" ;
-    schema1:url "https://tricargo.de/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Quimper" ;
-    schema1:coopcycle_url "https://lescoursiersbzh.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/breizhvelo.fr" ;
-    schema1:latitude 4.799595e+01 ;
-    schema1:longitude -4.09992e+00 ;
-    schema1:mail "coursierbzhquimper@breizhvelo.fr" ;
-    schema1:name "Breizh Vélo - Quimper" ;
-    schema1:url "https://breizh-velo.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Grenoble" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.519518e+01 ;
-    schema1:longitude 5.711916e+00 ;
-    schema1:mail "grenoble@toutenvelo.fr" ;
-    schema1:name "Toutenvélo Grenoble" ;
-    schema1:url "http://www.toutenvelo.fr/toutenvelo-grenoble" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Bordeaux" ;
-    schema1:coopcycle_url "https://coursiersbordelais.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/coursiersbordelais/" ;
-    schema1:latitude 4.486383e+01 ;
-    schema1:longitude -6.561812e-01 ;
-    schema1:mail "coursiersbordelais@gmail.com" ;
-    schema1:name "Les Coursiers Bordelais" ;
-    schema1:url "http://coursiersbordelais.fr" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Tours" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/toursnmessengers" ;
-    schema1:latitude 4.738333e+01 ;
-    schema1:longitude 6.83333e-01 ;
-    schema1:name "Tours N Messengers" ;
-    schema1:url "https://www.toursnmessengers.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Rodez" ;
-    schema1:coopcycle_url "https://biclooo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.435283e+01 ;
-    schema1:longitude 2.562013e+00 ;
-    schema1:mail "bonjour@biclooo.fr" ;
-    schema1:name "Biclooo" ;
-    schema1:url "http://www.biclooo.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Rennes" ;
-    schema1:coopcycle_url "https://lcr.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescoursiersrennais/" ;
-    schema1:instagram_url "https://www.instagram.com/lescoursiersrennais/" ;
-    schema1:latitude 4.811178e+01 ;
-    schema1:longitude -1.68026e+00 ;
-    schema1:mail "lescoursiersrennais.marketplace@gmail.com" ;
-    schema1:name "Les Coursiers Rennais" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Saint-Denis" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/co1cide/" ;
-    schema1:latitude 4.892679e+01 ;
-    schema1:longitude 2.330664e+00 ;
-    schema1:mail "contact@riders-socialclub.com" ;
-    schema1:name "CoinCide" ;
-    schema1:twitter_url "https://twitter.com/co1cide" ;
-    schema1:url "https://about.me/co1cide" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Le Havre" ;
-    schema1:coopcycle_url "https://fast-and-curious.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/Fast-and-curious-103028378475922" ;
-    schema1:latitude 4.949259e+01 ;
-    schema1:longitude 1.065e-01 ;
-    schema1:mail "contact@fast-and-curious.fr" ;
-    schema1:name "Fast and Curious" ;
-    schema1:url "https://fast-and-curious.fr" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Ciudad de México - TWC" ;
-    schema1:coopcycle_url "https://twc.coopcycle.org" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://twc.coopcycle.org/es/forms/MQjb6n5OVRPG" ;
-    schema1:facebook_url " https://m.facebook.com/TWCouriers/" ;
-    schema1:latitude 1.943268e+01 ;
-    schema1:logo_src "/images/coop-logos/log-twc.png" ;
-    schema1:longitude -9.913421e+01 ;
-    schema1:mail "twcbicimensajeria@gmail.com" ;
-    schema1:name "Two Wheel Collective" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Getafe" ;
-    schema1:country "es" ;
-    schema1:facebook_url "https://www.facebook.com/bikexpress.bullit" ;
-    schema1:instagram_url "https://www.instagram.com/bikexpress_ecomensajeria/" ;
-    schema1:latitude 4.030681e+01 ;
-    schema1:longitude -3.732985e+00 ;
-    schema1:mail "bikexpressur@gmail.com" ;
-    schema1:name "Bikexpress" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Vitoria-Gasteiz" ;
-    schema1:coopcycle_url "https://eramangasteiz.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:latitude 4.284686e+01 ;
-    schema1:longitude -2.67159e+00 ;
-    schema1:mail "repartos@eraman.coop" ;
-    schema1:name "Eraman Repartos Gasteiz" ;
-    schema1:url "http://www.eraman.coop/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Montpellier" ;
-    schema1:coopcycle_url "https://coursiersmontpellier.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/Coursiersmtp/" ;
-    schema1:latitude 4.361e+01 ;
-    schema1:longitude 3.804121e+00 ;
-    schema1:mail "contact@coursiers-montpellier.fr" ;
-    schema1:name "Les Coursiers Montpelliérains" ;
-    schema1:url "http://coursiers-montpellier.fr" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Zaragoza" ;
-    schema1:coopcycle_url "https://zampate.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:facebook_url "https://www.facebook.com/100595218441670/" ;
-    schema1:instagram_url "https://www.instagram.com/zampate.zgz/" ;
-    schema1:latitude 4.1651e+01 ;
-    schema1:longitude -8.88742e-01 ;
-    schema1:mail "zampate.zaragoza@gmail.com" ;
-    schema1:name "Zampate" ;
-    schema1:url "https://zampatezaragoza.com" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Montréal" ;
-    schema1:country "ca" ;
-    schema1:facebook_url "https://www.facebook.com/La-roue-libre-198894610933757/" ;
-    schema1:instagram_url "https://www.instagram.com/larouelibremtl/" ;
-    schema1:latitude 4.550906e+01 ;
-    schema1:longitude -7.355336e+01 ;
-    schema1:mail "info@larouelibre.org" ;
-    schema1:name "La roue libre" ;
-    schema1:twitter_url "https://twitter.com/larouelibremtl" ;
-    schema1:url "https://www.larouelibre.org" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Sabadell" ;
-    schema1:country "es" ;
-    schema1:instagram_url "https://instagram.com/lasarriacoop/" ;
-    schema1:latitude 4.154771e+01 ;
-    schema1:longitude 2.1079e+00 ;
-    schema1:mail "davidestop@gmail.com" ;
-    schema1:name "La Sàrria" ;
-    schema1:twitter_url "https://twitter.com/la_sarria" ;
-    schema1:url "http://lasarria.cat/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Orléans" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescycloposteurs/" ;
-    schema1:latitude 4.790407e+01 ;
-    schema1:longitude 1.885835e+00 ;
-    schema1:mail "lescycloposteurs@mailo.com" ;
-    schema1:name "Orléans Cycloposteurs" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Saint-Maur-des-Fossés" ;
-    schema1:coopcycle_url "https://samo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.880368e+01 ;
-    schema1:longitude 2.485329e+00 ;
-    schema1:mail "samo.contact.sm@gmail.com" ;
-    schema1:name "Samo" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Châtillon" ;
-    schema1:coopcycle_url "https://initiative-emploi.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.879986e+01 ;
-    schema1:longitude 2.28574e+00 ;
-    schema1:mail "dring@initiative-emploi-92.fr" ;
-    schema1:name "Dring" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Halle" ;
-    schema1:coopcycle_url "https://cat.coopcycle.org" ;
-    schema1:country "de" ;
-    schema1:facebook_url "https://www.facebook.com/Catkurier/" ;
-    schema1:instagram_url "https://www.instagram.com/cat_kurierkollektiv/" ;
-    schema1:latitude 5.147099e+01 ;
-    schema1:longitude 1.196318e+01 ;
-    schema1:name "Cat-Kurierkollektiv" ;
-    schema1:url "https://cat-kurierkollektiv.de/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Ciudad de México - SIRApps" ;
-    schema1:coopcycle_url "https://sirapps-cdmx.coopcycle.org" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://sirapps-cdmx.coopcycle.org/es/forms/beNzw6a5pmo4" ;
-    schema1:facebook_url " https://www.facebook.com/sirapps.unionrepartidores/" ;
-    schema1:latitude 1.943268e+01 ;
-    schema1:logo_src "/images/coop-logos/logo-sira.png" ;
-    schema1:longitude -9.913421e+01 ;
-    schema1:mail "sirapps.unionrepartidores@gmail.com" ;
-    schema1:name "SIRApps Unión Mexicana de Bicimensajeros por Aplicación" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Toulon" ;
-    schema1:coopcycle_url "https://la-cocotte.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.312519e+01 ;
-    schema1:longitude 5.93104e+00 ;
-    schema1:mail "la.cocotte.toulon@gmail.com" ;
-    schema1:name "La Cocotte" ;
-    schema1:url "http://www.cocottelivraison.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Berlin" ;
-    schema1:coopcycle_url "https://khora.berlin" ;
-    schema1:country "de" ;
-    schema1:latitude 5.252001e+01 ;
-    schema1:longitude 1.340495e+01 ;
-    schema1:mail "service@khora.berlin" ;
-    schema1:name "Khora" ;
-    schema1:url "https://khora.berlin/de/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Epinay" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/LesCyclopes93" ;
-    schema1:latitude 4.895e+01 ;
-    schema1:longitude 2.30833e+00 ;
-    schema1:mail "contact@lescyclopes.fr" ;
-    schema1:name "Les Cyclopes" ;
-    schema1:url "https://www.lescyclopes.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Berlin" ;
-    schema1:country "de" ;
-    schema1:facebook_url "https://www.facebook.com/crowcyclecouriercollective" ;
-    schema1:instagram_url "https://www.instagram.com/crowberlin" ;
-    schema1:latitude 5.250031e+01 ;
-    schema1:longitude 1.339848e+01 ;
-    schema1:mail "info@crowberlin.de" ;
-    schema1:name "CROW Collective" ;
-    schema1:url "https://www.crowberlin.de" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Metz" ;
-    schema1:coopcycle_url "https://coursiers-metz.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescoursiersdemetz/" ;
-    schema1:latitude 4.911727e+01 ;
-    schema1:longitude 6.174991e+00 ;
-    schema1:mail "contact@lescoursiersdemetz.fr" ;
-    schema1:name "Les coursiers Metz" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Dijon" ;
-    schema1:coopcycle_url "https://a2roo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/a2roo.dijon/" ;
-    schema1:latitude 4.732205e+01 ;
-    schema1:longitude 5.04148e+00 ;
-    schema1:mail "contact@a2roo-dijon.fr" ;
-    schema1:name "A2ROO" ;
-    schema1:url "https://www.a2roo-dijon.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Carpentras" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://fr-fr.facebook.com/coliscyclette/" ;
-    schema1:latitude 4.406284e+01 ;
-    schema1:longitude 4.988404e+00 ;
-    schema1:mail "serge.carpentras@gmail.com" ;
-    schema1:name "ColisCyclette" ;
-    schema1:url "http://coliscyclette.fr" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Saint-Étienne" ;
-    schema1:coopcycle_url "https://coursiers-stephanois.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/coursiersstephanois" ;
-    schema1:latitude 4.543681e+01 ;
-    schema1:longitude 4.386622e+00 ;
-    schema1:mail "contact@coursiers-stephanois.fr" ;
-    schema1:name "Les Coursiers Stéphanois" ;
-    schema1:url "https://www.coursiers-stephanois.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Liège" ;
-    schema1:coopcycle_url "https://rayon9.coopcycle.org" ;
-    schema1:country "be" ;
-    schema1:facebook_url "https://www.facebook.com/rayon9coop" ;
-    schema1:latitude 5.062473e+01 ;
-    schema1:longitude 5.52905e+00 ;
-    schema1:mail "info@rayon9.be" ;
-    schema1:name "RAYON9" ;
-    schema1:url "https://rayon9.be" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Hull" ;
-    schema1:coopcycle_url "https://hull.coopcycle.org" ;
-    schema1:country "gb" ;
-    schema1:latitude 5.376752e+01 ;
-    schema1:longitude -3.319922e-01 ;
-    schema1:mail "hulldeliverycoop@gmail.com" ;
-    schema1:name "Hull Delivery Coop" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Dinan" ;
-    schema1:coopcycle_url "https://dinan.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/LesCoursiersDinannais/" ;
-    schema1:latitude 4.845402e+01 ;
-    schema1:longitude -2.04615e+00 ;
-    schema1:mail "lescoursiersdinannais@gmail.com" ;
-    schema1:name "Les Coursiers Dinannais" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Ciudad de México - Tlok" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://tlok.coopcycle.org/es/forms/Wwk9BaABjy6x" ;
-    schema1:facebook_url "https://www.facebook.com/TlokMess/" ;
-    schema1:instagram_url "https://www.instagram.com/tlok.mess/?hl=fr" ;
-    schema1:latitude 1.941979e+01 ;
-    schema1:logo_src "/images/coop-logos/logo-tlok.png" ;
-    schema1:longitude -9.911167e+01 ;
-    schema1:mail "cotizaciones@tlok.info" ;
-    schema1:name "TLOK" ;
-    schema1:url "https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Sydney" ;
-    schema1:coopcycle_url "https://hotlinecouriers.coopcycle.org" ;
-    schema1:country "au" ;
-    schema1:instagram_url "https://www.instagram.com/hotlinecouriers/" ;
-    schema1:latitude -3.387359e+01 ;
-    schema1:longitude 1.512067e+02 ;
-    schema1:mail "sam@hotlinecouriers.com.au" ;
-    schema1:name "Hotline Couriers" ;
-    schema1:url "https://hotlinecouriers.com.au/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Saint Nazaire" ;
-    schema1:coopcycle_url "https://lescoliporteursnz.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescoliporteursnz/" ;
-    schema1:instagram_url "https://www.instagram.com/lescoliporteursnz/?hl=fr" ;
-    schema1:latitude 4.72735e+01 ;
-    schema1:longitude -2.213848e+00 ;
-    schema1:mail "contact@lescoliporteursnz.fr" ;
-    schema1:name "Les Coliporteurs Nazairiens" ;
-    schema1:url "https://www.lescoliporteursnz.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Nîmes" ;
-    schema1:coopcycle_url "https://krokoop.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.38367e+01 ;
-    schema1:longitude 4.360054e+00 ;
-    schema1:mail "krokoop.livraison@gmail.com" ;
-    schema1:name "KroKoop" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Aarhus" ;
-    schema1:country "dk" ;
-    schema1:instagram_url "https://www.instagram.com/nbdcykelbud/" ;
-    schema1:latitude 5.614538e+01 ;
-    schema1:longitude 1.020489e+01 ;
-    schema1:mail "hej@nbdcykelbud.nu" ;
-    schema1:name "No bad days" ;
-    schema1:url "https://www.nbdcykelbud.nu/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "York" ;
-    schema1:coopcycle_url "https://york.coopcycle.org" ;
-    schema1:country "gb" ;
-    schema1:facebook_url "https://www.facebook.com/yorkcollective" ;
-    schema1:instagram_url "https://www.instagram.com/yorkcollective/" ;
-    schema1:latitude 5.395539e+01 ;
-    schema1:longitude -1.090357e+00 ;
-    schema1:mail "info@yorkcollective.co.uk" ;
-    schema1:name "York Collective" ;
-    schema1:url "https://www.facebook.com/yorkcollective" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Niort" ;
-    schema1:coopcycle_url "https://niort.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.632386e+01 ;
-    schema1:longitude -4.5758e-01 ;
-    schema1:mail "lescoursiersniortais@gmail.com" ;
-    schema1:name "Les Coursiers Niortais" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Bilbao" ;
-    schema1:coopcycle_url "https://botxoriders.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:latitude 4.32627e+01 ;
-    schema1:longitude -2.9253e+00 ;
-    schema1:name "Botxoriders" ;
-    schema1:url "https://botxoriders.com/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Brest" ;
-    schema1:coopcycle_url "https://lescoursiersbrestois.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/lescoursiersbrestois/" ;
-    schema1:latitude 4.839039e+01 ;
-    schema1:longitude -4.486076e+00 ;
-    schema1:mail "lescoursiersbrestois@gmail.com" ;
-    schema1:name "Les Coursiers Brestois" ;
-    schema1:url "http://lescoursiersbrestois.bzh/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Buenos Aires" ;
-    schema1:coopcycle_url "https://demo.coopcycle.org" ;
-    schema1:country "ar" ;
-    schema1:facebook_url "https://www.facebook.com/facttic/" ;
-    schema1:instagram_url "https://www.instagram.com/facttic.ar/" ;
-    schema1:latitude -3.460368e+01 ;
-    schema1:longitude -5.838156e+01 ;
-    schema1:mail "plataformascooperativas@facttic.org.ar" ;
-    schema1:name "FACTTIC" ;
-    schema1:twitter_url "https://twitter.com/facttic" ;
-    schema1:url "https://facttic.org.ar/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Nancy - Les Coursiers Nancéiens" ;
-    schema1:coopcycle_url "https://lescoursiersnanceiens.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/105806728007985/" ;
-    schema1:latitude 4.86885e+01 ;
-    schema1:longitude 6.1727e+00 ;
-    schema1:mail "contact@lescoursiersnanceiens.fr" ;
-    schema1:name "Les Coursiers Nancéiens" ;
-    schema1:url "https://lescoursiersnanceiens.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Puebla" ;
-    schema1:coopcycle_url "https://envici.coopcycle.org" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://envici.coopcycle.org/es/forms/3jo0R247KvEr" ;
-    schema1:facebook_url "https://www.facebook.com/envicientregasymensajeria" ;
-    schema1:latitude 1.904368e+01 ;
-    schema1:longitude -9.819904e+01 ;
-    schema1:mail "enviciparallevar@gmail.com" ;
-    schema1:name "Envici" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Montreuil" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://facebook.com/lesnarvelos" ;
-    schema1:instagram_url "https://instagram.com/lesnarvelos" ;
-    schema1:latitude 4.885831e+01 ;
-    schema1:longitude 2.4369e+00 ;
-    schema1:name "Narvélos" ;
-    schema1:twitter_url "https://twitter.com/lesnarvelos" ;
-    schema1:url "https://www.narvelos.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Clermont-Ferrand" ;
-    schema1:coopcycle_url "https://cyclome.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/cyclome.coop" ;
-    schema1:latitude 4.577721e+01 ;
-    schema1:longitude 3.08252e+00 ;
-    schema1:mail "contact@cyclome.fr" ;
-    schema1:name "CYCLOME" ;
-    schema1:url "https://cyclome.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Grenoble" ;
-    schema1:coopcycle_url "https://sicklo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.519624e+01 ;
-    schema1:longitude 5.730347e+00 ;
-    schema1:mail "contact@sicklo.fr" ;
-    schema1:name "S!cklo" ;
-    schema1:url "https://sicklo.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Marseille" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/Toutenv%C3%A9lo-Marseille-336736433711774/" ;
-    schema1:latitude 4.329648e+01 ;
-    schema1:longitude 5.36978e+00 ;
-    schema1:mail "marseille@toutenvelo.fr" ;
-    schema1:name "Toutenvélo Marseille" ;
-    schema1:url "http://www.toutenvelo.fr/toutenvelo-marseille" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Amiens" ;
-    schema1:coopcycle_url "https://beefast.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/beefast.fr/" ;
-    schema1:latitude 4.989407e+01 ;
-    schema1:longitude 2.295753e+00 ;
-    schema1:mail "contact@beefast.fr" ;
-    schema1:name "Beefast" ;
-    schema1:url "https://www.beefast.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Madrid" ;
-    schema1:coopcycle_url "https://lapajara.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:facebook_url "https://www.facebook.com/lapajaraenbici/" ;
-    schema1:latitude 4.043813e+01 ;
-    schema1:longitude -3.819623e+00 ;
-    schema1:mail "info@lapajaraenbici.com" ;
-    schema1:name "La Pajara" ;
-    schema1:twitter_url "https://twitter.com/ridersxdmad" ;
-    schema1:url "https://lapajaraenbici.com/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Molenbeek, Brussels" ;
-    schema1:country "be" ;
-    schema1:facebook_url "https://www.facebook.com/Molenbike.be/" ;
-    schema1:latitude 5.085768e+01 ;
-    schema1:longitude 4.298245e+00 ;
-    schema1:mail "info@molenbike.be" ;
-    schema1:name "Molenbike" ;
-    schema1:twitter_url "https://twitter.com/molenbike_be" ;
-    schema1:url "https://molenbike.be" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Orléans" ;
-    schema1:coopcycle_url "https://le-rayon-vert.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/COLLECTIFCOURSIERSORLEANAIS" ;
-    schema1:instagram_url "https://www.instagram.com/_coco_coop_/" ;
-    schema1:latitude 4.790006e+01 ;
-    schema1:longitude 1.906112e+00 ;
-    schema1:mail "contact@coco-coop.org" ;
-    schema1:name "COCO Collectif de Coursiers Orléanais " ;
-    schema1:url "http://www.coco-coop.org/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Ciudad de México - BiciEntrega" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://bicientrega.coopcycle.org/es/forms/LWvagY4BKrzb" ;
-    schema1:facebook_url "https://www.facebook.com/La-organizaci%C3%B3n-bici-entrega-CDMX-299415760864018/" ;
-    schema1:instagram_url "https://www.instagram.com/bicientrega.cdmx/" ;
-    schema1:latitude 1.9435e+01 ;
-    schema1:logo_src "/images/coop-logos/logo-bicientrega.png" ;
-    schema1:longitude -9.915082e+01 ;
-    schema1:name "Bicientrega" ;
-    schema1:twitter_url "https://twitter.com/bicientregamx" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Pamplona/Iruña" ;
-    schema1:coopcycle_url "https://ziclop.coopcycle.org" ;
-    schema1:country "es" ;
-    schema1:facebook_url "https://www.facebook.com/Ziclo-P-109987504633550" ;
-    schema1:latitude 4.282708e+01 ;
-    schema1:longitude -1.64647e+00 ;
-    schema1:mail "contacto@ziclo-p.com" ;
-    schema1:name "Ziclo-P" ;
-    schema1:url "https://www.ziclo-p.com/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Lyon" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.576192e+01 ;
-    schema1:longitude 4.836265e+00 ;
-    schema1:mail "contact@coop-veliv.fr" ;
-    schema1:name "CoopVeliv" ;
-    schema1:url "http://coop-veliv.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Vancouver" ;
-    schema1:coopcycle_url "https://shift.coopcycle.org" ;
-    schema1:country "ca" ;
-    schema1:facebook_url "https://www.facebook.com/ShiftDelivery/" ;
-    schema1:latitude 4.928273e+01 ;
-    schema1:longitude -1.231207e+02 ;
-    schema1:mail "info@shiftdelivery.ca" ;
-    schema1:name "Shift Delivery Co-op" ;
-    schema1:url "https://shift.coop/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Nantes - Naofood" ;
-    schema1:coopcycle_url "https://naofood.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:facebook_url "https://www.facebook.com/nao.food" ;
-    schema1:instagram_url "https://www.instagram.com/nao.food/" ;
-    schema1:latitude 4.720647e+01 ;
-    schema1:longitude -1.564297e+00 ;
-    schema1:name "Naofood" ;
-    schema1:twitter_url "https://twitter.com/nao_food" ;
-    schema1:url "https://naofood.fr/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "London" ;
-    schema1:coopcycle_url "https://london.coopcycle.org" ;
-    schema1:country "gb" ;
-    schema1:latitude 5.156464e+01 ;
-    schema1:longitude -1.05872e-01 ;
-    schema1:mail "rich@doorstepcollective.org" ;
-    schema1:name "Wings: ethical food delivery" ;
-    schema1:twitter_url "https://twitter.com/wings_coop" ;
-    schema1:url "https://www.wings.coop/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Firenze" ;
-    schema1:coopcycle_url "https://robinfood.coopcycle.org" ;
-    schema1:country "it" ;
-    schema1:facebook_url "https://www.facebook.com/robinfooddelivery-108509294750638/" ;
-    schema1:instagram_url "https://www.instagram.com/robinfood.delivery/?hl=fr" ;
-    schema1:latitude 4.37752e+01 ;
-    schema1:longitude 1.125461e+01 ;
-    schema1:mail "info@robinfoodfirenze.it" ;
-    schema1:name "Robin Food" ;
-    schema1:url "https://www.robinfoodfirenze.it/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Huelva" ;
-    schema1:country "es" ;
-    schema1:latitude 3.726214e+01 ;
-    schema1:longitude -6.945398e+00 ;
-    schema1:mail "huelvavence@gmail.com" ;
-    schema1:name "Huelva Vence" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Sevilla" ;
-    schema1:country "es" ;
-    schema1:latitude 3.73901e+01 ;
-    schema1:longitude -5.986264e+00 ;
-    schema1:mail "antoniolf05@hotmail.com" ;
-    schema1:name "Velo" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Ciudad de México - TIG" ;
-    schema1:coopcycle_url "https://tig.coopcycle.org" ;
-    schema1:country "mx" ;
-    schema1:delivery_form_url "https://tig.coopcycle.org/es/forms/YXwQlJ7EA6VL" ;
-    schema1:facebook_url "https://www.facebook.com/tig.mx" ;
-    schema1:latitude 1.943261e+01 ;
-    schema1:logo_src "/images/coop-logos/logo-tig.png" ;
-    schema1:longitude -9.913321e+01 ;
-    schema1:mail "info@tig.mx" ;
-    schema1:name "TIG Bicimensajería" ;
-    schema1:url "https://www.tigcdmx.com/" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Concarneau" ;
-    schema1:coopcycle_url "https://belo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.786667e+01 ;
-    schema1:longitude -3.91667e+00 ;
-    schema1:mail "contact@belolivraison.fr" ;
-    schema1:name "Belo Livraison" ;
-    schema1:url "https://belolivraison.fr" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Napoli" ;
-    schema1:coopcycle_url "https://colibri.coopcycle.org" ;
-    schema1:country "it" ;
-    schema1:latitude 4.083998e+01 ;
-    schema1:longitude 1.425254e+01 ;
-    schema1:mail "colibri@cleanap.org" ;
-    schema1:name "Colibri" .
-
-[] a schema1:LocalBusiness ;
-    schema1:city "Lorient" ;
-    schema1:coopcycle_url "https://feelavelo.coopcycle.org" ;
-    schema1:country "fr" ;
-    schema1:latitude 4.774825e+01 ;
-    schema1:longitude -3.370245e+00 ;
-    schema1:mail "contact@feelavelo.fr" ;
-    schema1:name "Feel à Vélo" ;
-    schema1:url "http://www.feelavelo.fr/" .
+[ rdf:type owl:Ontology
+ ] .
 
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://schema.org/city
+schema1:city rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/coopcycle_url
+schema1:coopcycle_url rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/country
+schema1:country rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/delivery_form_url
+schema1:delivery_form_url rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/facebook_url
+schema1:facebook_url rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/instagram_url
+schema1:instagram_url rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/latitude
+schema1:latitude rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/logo_src
+schema1:logo_src rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/longitude
+schema1:longitude rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/mail
+schema1:mail rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/name
+schema1:name rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/twitter_url
+schema1:twitter_url rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/url
+schema1:url rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema.org/LocalBusiness
+schema1:LocalBusiness rdf:type owl:Class .
+
+###  New class for City
+schema1:City rdf:type owl:Class .
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/A2ROO
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/A2ROO> rdf:type owl:NamedIndividual ,
+                                                                                                              schema1:LocalBusiness ;
+                                                                                                     schema1:city "Dijon" ;
+                                                                                                     schema1:coopcycle_url "https://a2roo.coopcycle.org" ;
+                                                                                                     schema1:country "fr" ;
+                                                                                                     schema1:facebook_url "https://www.facebook.com/a2roo.dijon/" ;
+                                                                                                     schema1:latitude "47.32205"^^xsd:double ;
+                                                                                                     schema1:longitude "5.04148"^^xsd:double ;
+                                                                                                     schema1:mail "contact@a2roo-dijon.fr" ;
+                                                                                                     schema1:name "A2ROO" ;
+                                                                                                     schema1:url "https://www.a2roo-dijon.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Beefast
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Beefast> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Amiens" ;
+                                                                                                       schema1:coopcycle_url "https://beefast.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/beefast.fr/" ;
+                                                                                                       schema1:latitude "49.89407"^^xsd:double ;
+                                                                                                       schema1:longitude "2.295753"^^xsd:double ;
+                                                                                                       schema1:mail "contact@beefast.fr" ;
+                                                                                                       schema1:name "Beefast" ;
+                                                                                                       schema1:url "https://www.beefast.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Bicientrega
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Bicientrega> rdf:type owl:NamedIndividual ,
+                                                                                                                    schema1:LocalBusiness ;
+                                                                                                           schema1:city "Ciudad de MÃ©xico - BiciEntrega" ;
+                                                                                                           schema1:country "mx" ;
+                                                                                                           schema1:delivery_form_url "https://bicientrega.coopcycle.org/es/forms/LWvagY4BKrzb" ;
+                                                                                                           schema1:facebook_url "https://www.facebook.com/La-organizaci%C3%B3n-bici-entrega-CDMX-299415760864018/" ;
+                                                                                                           schema1:instagram_url "https://www.instagram.com/bicientrega.cdmx/" ;
+                                                                                                           schema1:latitude "19.435"^^xsd:double ;
+                                                                                                           schema1:logo_src "/images/coop-logos/logo-bicientrega.png" ;
+                                                                                                           schema1:longitude "-99.15082"^^xsd:double ;
+                                                                                                           schema1:name "Bicientrega" ;
+                                                                                                           schema1:twitter_url "https://twitter.com/bicientregamx" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Biclooo
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Biclooo> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Rodez" ;
+                                                                                                       schema1:coopcycle_url "https://biclooo.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:latitude "44.35283"^^xsd:double ;
+                                                                                                       schema1:longitude "2.562013"^^xsd:double ;
+                                                                                                       schema1:mail "bonjour@biclooo.fr" ;
+                                                                                                       schema1:name "Biclooo" ;
+                                                                                                       schema1:url "http://www.biclooo.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Bikexpress
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Bikexpress> rdf:type owl:NamedIndividual ,
+                                                                                                                   schema1:LocalBusiness ;
+                                                                                                          schema1:city "Getafe" ;
+                                                                                                          schema1:country "es" ;
+                                                                                                          schema1:facebook_url "https://www.facebook.com/bikexpress.bullit" ;
+                                                                                                          schema1:instagram_url "https://www.instagram.com/bikexpress_ecomensajeria/" ;
+                                                                                                          schema1:latitude "40.30681"^^xsd:double ;
+                                                                                                          schema1:longitude "-3.732985"^^xsd:double ;
+                                                                                                          schema1:mail "bikexpressur@gmail.com" ;
+                                                                                                          schema1:name "Bikexpress" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Botxoriders
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Botxoriders> rdf:type owl:NamedIndividual ,
+                                                                                                                    schema1:LocalBusiness ;
+                                                                                                           schema1:city "Bilbao" ;
+                                                                                                           schema1:coopcycle_url "https://botxoriders.coopcycle.org" ;
+                                                                                                           schema1:country "es" ;
+                                                                                                           schema1:latitude "43.2627"^^xsd:double ;
+                                                                                                           schema1:longitude "-2.9253"^^xsd:double ;
+                                                                                                           schema1:name "Botxoriders" ;
+                                                                                                           schema1:url "https://botxoriders.com/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CYCLOME
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CYCLOME> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Clermont-Ferrand" ;
+                                                                                                       schema1:coopcycle_url "https://cyclome.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/cyclome.coop" ;
+                                                                                                       schema1:latitude "45.77721"^^xsd:double ;
+                                                                                                       schema1:longitude "3.08252"^^xsd:double ;
+                                                                                                       schema1:mail "contact@cyclome.fr" ;
+                                                                                                       schema1:name "CYCLOME" ;
+                                                                                                       schema1:url "https://cyclome.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Cat-Kurierkollektiv
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Cat-Kurierkollektiv> rdf:type owl:NamedIndividual ,
+                                                                                                                            schema1:LocalBusiness ;
+                                                                                                                   schema1:city "Halle" ;
+                                                                                                                   schema1:coopcycle_url "https://cat.coopcycle.org" ;
+                                                                                                                   schema1:country "de" ;
+                                                                                                                   schema1:facebook_url "https://www.facebook.com/Catkurier/" ;
+                                                                                                                   schema1:instagram_url "https://www.instagram.com/cat_kurierkollektiv/" ;
+                                                                                                                   schema1:latitude "51.47099"^^xsd:double ;
+                                                                                                                   schema1:longitude "11.96318"^^xsd:double ;
+                                                                                                                   schema1:name "Cat-Kurierkollektiv" ;
+                                                                                                                   schema1:url "https://cat-kurierkollektiv.de/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CoinCide
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CoinCide> rdf:type owl:NamedIndividual ,
+                                                                                                                 schema1:LocalBusiness ;
+                                                                                                        schema1:city "Saint-Denis" ;
+                                                                                                        schema1:country "fr" ;
+                                                                                                        schema1:facebook_url "https://www.facebook.com/co1cide/" ;
+                                                                                                        schema1:latitude "48.92679"^^xsd:double ;
+                                                                                                        schema1:longitude "2.330664"^^xsd:double ;
+                                                                                                        schema1:mail "contact@riders-socialclub.com" ;
+                                                                                                        schema1:name "CoinCide" ;
+                                                                                                        schema1:twitter_url "https://twitter.com/co1cide" ;
+                                                                                                        schema1:url "https://about.me/co1cide" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Colibri
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Colibri> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Napoli" ;
+                                                                                                       schema1:coopcycle_url "https://colibri.coopcycle.org" ;
+                                                                                                       schema1:country "it" ;
+                                                                                                       schema1:latitude "40.83998"^^xsd:double ;
+                                                                                                       schema1:longitude "14.25254"^^xsd:double ;
+                                                                                                       schema1:mail "colibri@cleanap.org" ;
+                                                                                                       schema1:name "Colibri" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/ColisCyclette
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/ColisCyclette> rdf:type owl:NamedIndividual ,
+                                                                                                                      schema1:LocalBusiness ;
+                                                                                                             schema1:city "Carpentras" ;
+                                                                                                             schema1:country "fr" ;
+                                                                                                             schema1:facebook_url "https://fr-fr.facebook.com/coliscyclette/" ;
+                                                                                                             schema1:latitude "44.06284"^^xsd:double ;
+                                                                                                             schema1:longitude "4.988404"^^xsd:double ;
+                                                                                                             schema1:mail "serge.carpentras@gmail.com" ;
+                                                                                                             schema1:name "ColisCyclette" ;
+                                                                                                             schema1:url "http://coliscyclette.fr" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CoopVeliv
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/CoopVeliv> rdf:type owl:NamedIndividual ,
+                                                                                                                  schema1:LocalBusiness ;
+                                                                                                         schema1:city "Lyon" ;
+                                                                                                         schema1:country "fr" ;
+                                                                                                         schema1:latitude "45.76192"^^xsd:double ;
+                                                                                                         schema1:longitude "4.836265"^^xsd:double ;
+                                                                                                         schema1:mail "contact@coop-veliv.fr" ;
+                                                                                                         schema1:name "CoopVeliv" ;
+                                                                                                         schema1:url "http://coop-veliv.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Dring
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Dring> rdf:type owl:NamedIndividual ,
+                                                                                                              schema1:LocalBusiness ;
+                                                                                                     schema1:city "ChÃ¢tillon" ;
+                                                                                                     schema1:coopcycle_url "https://initiative-emploi.coopcycle.org" ;
+                                                                                                     schema1:country "fr" ;
+                                                                                                     schema1:latitude "48.79986"^^xsd:double ;
+                                                                                                     schema1:longitude "2.28574"^^xsd:double ;
+                                                                                                     schema1:mail "dring@initiative-emploi-92.fr" ;
+                                                                                                     schema1:name "Dring" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Envici
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Envici> rdf:type owl:NamedIndividual ,
+                                                                                                               schema1:LocalBusiness ;
+                                                                                                      schema1:city "Puebla" ;
+                                                                                                      schema1:coopcycle_url "https://envici.coopcycle.org" ;
+                                                                                                      schema1:country "mx" ;
+                                                                                                      schema1:delivery_form_url "https://envici.coopcycle.org/es/forms/3jo0R247KvEr" ;
+                                                                                                      schema1:facebook_url "https://www.facebook.com/envicientregasymensajeria" ;
+                                                                                                      schema1:latitude "19.04368"^^xsd:double ;
+                                                                                                      schema1:longitude "-98.19904"^^xsd:double ;
+                                                                                                      schema1:mail "enviciparallevar@gmail.com" ;
+                                                                                                      schema1:name "Envici" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/FACTTIC
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/FACTTIC> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Buenos Aires" ;
+                                                                                                       schema1:coopcycle_url "https://demo.coopcycle.org" ;
+                                                                                                       schema1:country "ar" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/facttic/" ;
+                                                                                                       schema1:instagram_url "https://www.instagram.com/facttic.ar/" ;
+                                                                                                       schema1:latitude "-34.60368"^^xsd:double ;
+                                                                                                       schema1:longitude "-58.38156"^^xsd:double ;
+                                                                                                       schema1:mail "plataformascooperativas@facttic.org.ar" ;
+                                                                                                       schema1:name "FACTTIC" ;
+                                                                                                       schema1:twitter_url "https://twitter.com/facttic" ;
+                                                                                                       schema1:url "https://facttic.org.ar/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Khora
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Khora> rdf:type owl:NamedIndividual ,
+                                                                                                              schema1:LocalBusiness ;
+                                                                                                     schema1:city "Berlin" ;
+                                                                                                     schema1:coopcycle_url "https://khora.berlin" ;
+                                                                                                     schema1:country "de" ;
+                                                                                                     schema1:latitude "52.52001"^^xsd:double ;
+                                                                                                     schema1:longitude "13.40495"^^xsd:double ;
+                                                                                                     schema1:mail "service@khora.berlin" ;
+                                                                                                     schema1:name "Khora" ;
+                                                                                                     schema1:url "https://khora.berlin/de/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Kooglof
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Kooglof> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Strasbourg" ;
+                                                                                                       schema1:coopcycle_url "https://kooglof.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/kooglof/" ;
+                                                                                                       schema1:instagram_url "https://www.instagram.com/kooglof_livraison/" ;
+                                                                                                       schema1:latitude "48.5833"^^xsd:double ;
+                                                                                                       schema1:longitude "7.75"^^xsd:double ;
+                                                                                                       schema1:name "Kooglof" ;
+                                                                                                       schema1:url "https://kooglof.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/KroKoop
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/KroKoop> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "NÃ®mes" ;
+                                                                                                       schema1:coopcycle_url "https://krokoop.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:latitude "43.8367"^^xsd:double ;
+                                                                                                       schema1:longitude "4.360054"^^xsd:double ;
+                                                                                                       schema1:mail "krokoop.livraison@gmail.com" ;
+                                                                                                       schema1:name "KroKoop" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Libelubike
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Libelubike> rdf:type owl:NamedIndividual ,
+                                                                                                                   schema1:LocalBusiness ;
+                                                                                                          schema1:city "Puerto de Veracruz" ;
+                                                                                                          schema1:coopcycle_url "https://libelubike.coopcycle.org" ;
+                                                                                                          schema1:country "mx" ;
+                                                                                                          schema1:delivery_form_url "https://libelubike.coopcycle.org/es/forms/rQJjO7yBWVdg" ;
+                                                                                                          schema1:facebook_url "https://www.facebook.com/Libelubikemx/" ;
+                                                                                                          schema1:instagram_url "https://www.instagram.com/libelubikemx" ;
+                                                                                                          schema1:latitude "19.19606"^^xsd:double ;
+                                                                                                          schema1:logo_src "/images/coop-logos/logo-libelubike.png" ;
+                                                                                                          schema1:longitude "-96.14487"^^xsd:double ;
+                                                                                                          schema1:mail "contacto@libelubike.com.mx" ;
+                                                                                                          schema1:name "Libelubike" ;
+                                                                                                          schema1:twitter_url "https://twitter.com/libelubikemx" ;
+                                                                                                          schema1:url "https://libelubike.com.mx" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Lille.bike
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Lille.bike> rdf:type owl:NamedIndividual ,
+                                                                                                                   schema1:LocalBusiness ;
+                                                                                                          schema1:city "Lille / Roubaix" ;
+                                                                                                          schema1:coopcycle_url "https://lille.coopcycle.org" ;
+                                                                                                          schema1:country "fr" ;
+                                                                                                          schema1:facebook_url "https://www.facebook.com/lillepointbike/" ;
+                                                                                                          schema1:latitude "50.63116"^^xsd:double ;
+                                                                                                          schema1:longitude "2.97712"^^xsd:double ;
+                                                                                                          schema1:mail "contact@lille.bike" ;
+                                                                                                          schema1:name "Lille.bike" ;
+                                                                                                          schema1:url "http://lille.bike" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Mensakas
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Mensakas> rdf:type owl:NamedIndividual ,
+                                                                                                                 schema1:LocalBusiness ;
+                                                                                                        schema1:city "Barcelona" ;
+                                                                                                        schema1:coopcycle_url "https://mensakas.coopcycle.org" ;
+                                                                                                        schema1:country "es" ;
+                                                                                                        schema1:facebook_url "https://www.facebook.com/Mensakas/" ;
+                                                                                                        schema1:latitude "41.38506"^^xsd:double ;
+                                                                                                        schema1:longitude "2.173404"^^xsd:double ;
+                                                                                                        schema1:mail "info@mensakas.com" ;
+                                                                                                        schema1:name "Mensakas" ;
+                                                                                                        schema1:twitter_url "https://twitter.com/MensakasApp" ;
+                                                                                                        schema1:url "https://www.mensakas.com/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Molenbike
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Molenbike> rdf:type owl:NamedIndividual ,
+                                                                                                                  schema1:LocalBusiness ;
+                                                                                                         schema1:city "Molenbeek, Brussels" ;
+                                                                                                         schema1:country "be" ;
+                                                                                                         schema1:facebook_url "https://www.facebook.com/Molenbike.be/" ;
+                                                                                                         schema1:latitude "50.85768"^^xsd:double ;
+                                                                                                         schema1:longitude "4.298245"^^xsd:double ;
+                                                                                                         schema1:mail "info@molenbike.be" ;
+                                                                                                         schema1:name "Molenbike" ;
+                                                                                                         schema1:twitter_url "https://twitter.com/molenbike_be" ;
+                                                                                                         schema1:url "https://molenbike.be" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Naofood
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Naofood> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Nantes - Naofood" ;
+                                                                                                       schema1:coopcycle_url "https://naofood.coopcycle.org" ;
+                                                                                                       schema1:country "fr" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/nao.food" ;
+                                                                                                       schema1:instagram_url "https://www.instagram.com/nao.food/" ;
+                                                                                                       schema1:latitude "47.20647"^^xsd:double ;
+                                                                                                       schema1:longitude "-1.564297"^^xsd:double ;
+                                                                                                       schema1:name "Naofood" ;
+                                                                                                       schema1:twitter_url "https://twitter.com/nao_food" ;
+                                                                                                       schema1:url "https://naofood.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/RAYON9
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/RAYON9> rdf:type owl:NamedIndividual ,
+                                                                                                               schema1:LocalBusiness ;
+                                                                                                      schema1:city "LiÃ¨ge" ;
+                                                                                                      schema1:coopcycle_url "https://rayon9.coopcycle.org" ;
+                                                                                                      schema1:country "be" ;
+                                                                                                      schema1:facebook_url "https://www.facebook.com/rayon9coop" ;
+                                                                                                      schema1:latitude "50.62473"^^xsd:double ;
+                                                                                                      schema1:longitude "5.52905"^^xsd:double ;
+                                                                                                      schema1:mail "info@rayon9.be" ;
+                                                                                                      schema1:name "RAYON9" ;
+                                                                                                      schema1:url "https://rayon9.be" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Samo
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Samo> rdf:type owl:NamedIndividual ,
+                                                                                                             schema1:LocalBusiness ;
+                                                                                                    schema1:city "Saint-Maur-des-FossÃ©s" ;
+                                                                                                    schema1:coopcycle_url "https://samo.coopcycle.org" ;
+                                                                                                    schema1:country "fr" ;
+                                                                                                    schema1:latitude "48.80368"^^xsd:double ;
+                                                                                                    schema1:longitude "2.485329"^^xsd:double ;
+                                                                                                    schema1:mail "samo.contact.sm@gmail.com" ;
+                                                                                                    schema1:name "Samo" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/TLOK
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/TLOK> rdf:type owl:NamedIndividual ,
+                                                                                                             schema1:LocalBusiness ;
+                                                                                                    schema1:city "Ciudad de MÃ©xico - Tlok" ;
+                                                                                                    schema1:country "mx" ;
+                                                                                                    schema1:delivery_form_url "https://tlok.coopcycle.org/es/forms/Wwk9BaABjy6x" ;
+                                                                                                    schema1:facebook_url "https://www.facebook.com/TlokMess/" ;
+                                                                                                    schema1:instagram_url "https://www.instagram.com/tlok.mess/?hl=fr" ;
+                                                                                                    schema1:latitude "19.41979"^^xsd:double ;
+                                                                                                    schema1:logo_src "/images/coop-logos/logo-tlok.png" ;
+                                                                                                    schema1:longitude "-99.11167"^^xsd:double ;
+                                                                                                    schema1:mail "cotizaciones@tlok.info" ;
+                                                                                                    schema1:name "TLOK" ;
+                                                                                                    schema1:url "https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Tricargo
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Tricargo> rdf:type owl:NamedIndividual ,
+                                                                                                                 schema1:LocalBusiness ;
+                                                                                                        schema1:city "Hambourg" ;
+                                                                                                        schema1:country "de" ;
+                                                                                                        schema1:instagram_url "https://www.instagram.com/hh_tricargo.de/" ;
+                                                                                                        schema1:latitude "53.55865"^^xsd:double ;
+                                                                                                        schema1:longitude "9.647638"^^xsd:double ;
+                                                                                                        schema1:mail "info@tricargo.de" ;
+                                                                                                        schema1:name "Tricargo" ;
+                                                                                                        schema1:twitter_url "https://twitter.com/tricargo_de" ;
+                                                                                                        schema1:url "https://tricargo.de/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Velo
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Velo> rdf:type owl:NamedIndividual ,
+                                                                                                             schema1:LocalBusiness ;
+                                                                                                    schema1:city "Sevilla" ;
+                                                                                                    schema1:country "es" ;
+                                                                                                    schema1:latitude "37.3901"^^xsd:double ;
+                                                                                                    schema1:longitude "-5.986264"^^xsd:double ;
+                                                                                                    schema1:mail "antoniolf05@hotmail.com" ;
+                                                                                                    schema1:name "Velo" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Zampate
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Zampate> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Zaragoza" ;
+                                                                                                       schema1:coopcycle_url "https://zampate.coopcycle.org" ;
+                                                                                                       schema1:country "es" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/100595218441670/" ;
+                                                                                                       schema1:instagram_url "https://www.instagram.com/zampate.zgz/" ;
+                                                                                                       schema1:latitude "41.651"^^xsd:double ;
+                                                                                                       schema1:longitude "-0.888742"^^xsd:double ;
+                                                                                                       schema1:mail "zampate.zaragoza@gmail.com" ;
+                                                                                                       schema1:name "Zampate" ;
+                                                                                                       schema1:url "https://zampatezaragoza.com" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Ziclo-P
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/Ziclo-P> rdf:type owl:NamedIndividual ,
+                                                                                                                schema1:LocalBusiness ;
+                                                                                                       schema1:city "Pamplona/IruÃ±a" ;
+                                                                                                       schema1:coopcycle_url "https://ziclop.coopcycle.org" ;
+                                                                                                       schema1:country "es" ;
+                                                                                                       schema1:facebook_url "https://www.facebook.com/Ziclo-P-109987504633550" ;
+                                                                                                       schema1:latitude "42.82708"^^xsd:double ;
+                                                                                                       schema1:longitude "-1.64647"^^xsd:double ;
+                                                                                                       schema1:mail "contacto@ziclo-p.com" ;
+                                                                                                       schema1:name "Ziclo-P" ;
+                                                                                                       schema1:url "https://www.ziclo-p.com/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/NarvÃ©los
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/NarvÃ©los> rdf:type owl:NamedIndividual ,
+                                                                                                                  schema1:LocalBusiness ;
+                                                                                                         schema1:city "Montreuil" ;
+                                                                                                         schema1:country "fr" ;
+                                                                                                         schema1:facebook_url "https://facebook.com/lesnarvelos" ;
+                                                                                                         schema1:instagram_url "https://instagram.com/lesnarvelos" ;
+                                                                                                         schema1:latitude "48.85831"^^xsd:double ;
+                                                                                                         schema1:longitude "2.4369"^^xsd:double ;
+                                                                                                         schema1:name "NarvÃ©los" ;
+                                                                                                         schema1:twitter_url "https://twitter.com/lesnarvelos" ;
+                                                                                                         schema1:url "https://www.narvelos.fr/" .
+
+
+###  file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/S!cklo
+<file:///c:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/S!cklo> rdf:type owl:NamedIndividual ,
+                                                                                                               schema1:LocalBusiness ;
+                                                                                                      schema1:city "Grenoble" ;
+                                                                                                      schema1:coopcycle_url "https://sicklo.coopcycle.org" ;
+                                                                                                      schema1:country "fr" ;
+                                                                                                      schema1:latitude "45.19624"^^xsd:double ;
+                                                                                                      schema1:longitude "5.730347"^^xsd:double ;
+                                                                                                      schema1:mail "contact@sicklo.fr" ;
+                                                                                                      schema1:name "S!cklo" ;
+                                                                                                      schema1:url "https://sicklo.fr/" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
