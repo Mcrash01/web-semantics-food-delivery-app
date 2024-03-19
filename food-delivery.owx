@@ -171,6 +171,33 @@
     <Declaration>
         <DataProperty IRI="#price"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chloe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pierre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stephanie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sylvia"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#DeliveryDriver"/>
         <ObjectSomeValuesFrom>
@@ -364,6 +391,128 @@
         <Class IRI="#Drink"/>
         <Class IRI="#Food"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Charles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Chloe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Julie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Marc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Pierre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Roger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Stephanie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DeliveryDriver"/>
+        <NamedIndividual IRI="#Sylvia"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Charles"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Charles"/>
+        <Literal>Charles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Chloe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Chloe"/>
+        <Literal>Chloe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Julie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Julie"/>
+        <Literal>Julie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Marc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Marc"/>
+        <Literal>Marc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Monica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Monica"/>
+        <Literal>Monica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Pierre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Pierre"/>
+        <Literal>Pierre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Roger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Roger"/>
+        <Literal>Roger</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Stephanie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Stephanie"/>
+        <Literal>Stephanie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Sylvia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sylvia"/>
+        <Literal>Sylvia</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAvailability"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
