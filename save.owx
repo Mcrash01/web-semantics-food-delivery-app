@@ -80,7 +80,7 @@
         <Class IRI="#RedWine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Restaurant"/>
+        <Class IRI="#Restaurants"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Soda"/>
@@ -253,12 +253,9 @@
     <Declaration>
         <NamedIndividual IRI="#Whisky"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="https://biclooo.coopcycle.org/fr/restaurant/18-au-passage"/>
-    </Declaration>
     <EquivalentClasses>
         <Class IRI="http://schema.org/Restaurant"/>
-        <Class IRI="#Restaurant"/>
+        <Class IRI="#Restaurants"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#DeliveryDriver"/>
@@ -282,7 +279,7 @@
         </DataSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Restaurant"/>
+        <Class IRI="#Restaurants"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#servesFood"/>
             <Class IRI="#FoodItem"/>
@@ -544,10 +541,6 @@
     <ClassAssertion>
         <Class IRI="#Alcohol"/>
         <NamedIndividual IRI="#Whisky"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://schema.org/Restaurant"/>
-        <NamedIndividual IRI="https://biclooo.coopcycle.org/fr/restaurant/18-au-passage"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#orderedBy"/>
@@ -946,7 +939,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isOpen"/>
-        <Class IRI="#Restaurant"/>
+        <Class IRI="#Restaurants"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#orderedBy"/>
