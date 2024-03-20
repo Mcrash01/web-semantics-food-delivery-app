@@ -13,7 +13,6 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>file:/C:/Users/Martin/Documents/GitHub/web-semantics-food-delivery-app/restaurants.ttl</Import>
-    <Import>http://www.schema.org</Import>
     <Declaration>
         <Class IRI="http://schema.org/Restaurant"/>
     </Declaration>
@@ -90,6 +89,9 @@
         <Class IRI="#StarterDish"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UserPreferences"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VegetarianFood"/>
     </Declaration>
     <Declaration>
@@ -124,6 +126,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#servesFood"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vegetarian"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#age"/>
@@ -244,6 +249,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UserPref1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#VeggiSteak"/>
@@ -530,6 +538,10 @@
     <ClassAssertion>
         <Class IRI="#Customer"/>
         <NamedIndividual IRI="#Tom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UserPreferences"/>
+        <NamedIndividual IRI="#UserPref1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#VegetarianFood"/>
@@ -879,6 +891,11 @@
         <Literal>Tom</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#location"/>
+        <NamedIndividual IRI="#UserPref1"/>
+        <Literal>Paris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#VeggiSteak"/>
         <Literal>VeggiSteak</Literal>
@@ -964,6 +981,10 @@
     <FunctionalDataProperty>
         <DataProperty IRI="#price"/>
     </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="#Vegetarian"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#age"/>
         <Datatype abbreviatedIRI="xsd:int"/>
