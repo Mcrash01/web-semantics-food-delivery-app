@@ -635,12 +635,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#IceTea"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
+        <Literal>IceTea</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#IceTea"/>
-        <Literal>IceTea</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#age"/>

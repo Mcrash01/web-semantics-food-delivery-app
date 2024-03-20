@@ -1,24 +1,24 @@
 @prefix ns1: <http://schema.org/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:address a rdf:Property .
+ns1:address a owl:DatatypeProperty .
 
-ns1:banner_image a rdf:Property .
+ns1:banner_image a owl:DatatypeProperty .
 
-ns1:delivery_url a rdf:Property .
+ns1:delivery_url a owl:DatatypeProperty .
 
-ns1:description a rdf:Property .
+ns1:description a owl:DatatypeProperty .
 
-ns1:image a rdf:Property .
+ns1:image a owl:DatatypeProperty .
 
-ns1:latitude a rdf:Property .
+ns1:latitude a owl:DatatypeProperty .
 
-ns1:longitude a rdf:Property .
+ns1:longitude a owl:DatatypeProperty .
 
-ns1:name a rdf:Property .
+ns1:name a owl:DatatypeProperty .
 
-ns1:opening_hours a rdf:Property .
+ns1:opening_hours a owl:DatatypeProperty .
 
 <https://a2roo.coopcycle.org/fr/restaurant/11-dz-envies> a ns1:Restaurant ;
     ns1:address "12 Rue Odebert, 21000 Dijon, France" ;
