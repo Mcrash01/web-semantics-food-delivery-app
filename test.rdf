@@ -914,6 +914,7 @@
     <!-- https://beefast.coopcycle.org/fr/restaurant/31-via-pizza -->
 
     <rdf:Description rdf:about="https://beefast.coopcycle.org/fr/restaurant/31-via-pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood"/>
         <untitled-ontology-3:servesFood>Italian</untitled-ontology-3:servesFood>
     </rdf:Description>
     
@@ -922,6 +923,7 @@
     <!-- https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa -->
 
     <rdf:Description rdf:about="https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood"/>
         <untitled-ontology-3:servesFood>Italian</untitled-ontology-3:servesFood>
     </rdf:Description>
     
