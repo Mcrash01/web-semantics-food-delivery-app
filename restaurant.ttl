@@ -1,6 +1,15 @@
 @prefix schema1: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+schema1:latitude a owl:DatatypeProperty .
+    schema1:longitude a owl:DatatypeProperty .
+    schema1:name a owl:DatatypeProperty .
+    schema1:address a owl:DatatypeProperty .
+    schema1:image a owl:DatatypeProperty .
+    schema1:bannerImage a owl:DatatypeProperty .
+    schema1:description a owl:DatatypeProperty .
+    schema1:openingHoursSpecification a owl:DatatypeProperty .
+
 <file:///api/restaurants/13> a schema1:Restaurant ;
     schema1:address <file:///api/addresses/359> ;
     schema1:bannerImage "https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99b52630c2125136586.jpg" ;
