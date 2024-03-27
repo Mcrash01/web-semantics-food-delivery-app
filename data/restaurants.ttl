@@ -1,0 +1,463 @@
+@prefix ns1: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:address a owl:DatatypeProperty .
+
+ns1:banner_image a owl:DatatypeProperty .
+
+ns1:delivery_url a owl:DatatypeProperty .
+
+ns1:description a owl:DatatypeProperty .
+
+ns1:image a owl:DatatypeProperty .
+
+ns1:latitude a owl:DatatypeProperty .
+
+ns1:longitude a owl:DatatypeProperty .
+
+ns1:name a owl:DatatypeProperty .
+
+ns1:opening_hours a owl:DatatypeProperty .
+
+<https://a2roo.coopcycle.org/fr/restaurant/11-dz-envies> a ns1:Restaurant ;
+    ns1:address "12 Rue Odebert, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/11-dz-envies> ;
+    ns1:description """Engagée et signée, la cuisine de David ZUDDAS fusionne entre la Bourgogne et les empreintes d’ailleurs. Elle joue une partition d’harmonies continuellement réinventées qui érige le produit en merveille avec le geste de l’artisan.\r
+\r
+Nous sommes heureux et fiers de pouvoir vous proposer notre service de livraison éthique et vertueux.\r
+Plus qu'un partenariat, c'est un engagement fort auprès de A2Roo, entreprise locale et coopérative de livraison en vélo cargo fabriqué à Longvic.                  \r
+Le coût de ce service de coeur de ville sera partagé entre Vous et Nous afin de garantir à nos livreurs une rémunération digne et juste.\r
+Nous vous remercions pour votre soutien.\r
+\r
+David Zuddas\r
+\r
+Les restaurants étant fermés, vos plats sont actuellement livrés à réchauffer""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/2f/612f53662a395.jpg> ;
+    ns1:latitude "47.3238"^^xsd:float ;
+    ns1:longitude "5.03942"^^xsd:float ;
+    ns1:name "DZ'envies" ;
+    ns1:opening_hours "Monday: 11:30-14:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/28-aida> a ns1:Restaurant ;
+    ns1:address "4 Rue de la Chouette, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/28-aida> ;
+    ns1:description """Les bonnes recettes maison d'Aida\r
+Des bons plats de "noodles", "woks" et "wontons" à déguster sur place ou à emporter.""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/8a/608ac60613180.jpg> ;
+    ns1:latitude "47.3225"^^xsd:float ;
+    ns1:longitude "5.04256"^^xsd:float ;
+    ns1:name "Aïda" ;
+    ns1:opening_hours "Monday: 11:30-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/30-le-sommatino> a ns1:Restaurant ;
+    ns1:address "7 Rue d'Auxonne, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/30-le-sommatino> ;
+    ns1:description """Venez déguster les délicieuses pizzas et hamburgers au Sommatino. \r
+\r
+Un bout d'Italie au bout de la rue d'Auxonne""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d46f02d06a.jpg> ;
+    ns1:latitude "47.315888"^^xsd:float ;
+    ns1:longitude "5.044923"^^xsd:float ;
+    ns1:name "Le Sommatino" ;
+    ns1:opening_hours "Monday: 12:00-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1> a ns1:Restaurant ;
+    ns1:address "31 Rue de Bruges, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1> ;
+    ns1:description """Boulangerie-pâtisserie aux confins des quartiers Toison d'Or et Charmette, Du Pain pour Demain vous propose une offre exclusive pour vos petits déjeuners au bureau ou à la maison. \r
+\r
+Des viennoiseries hautes en couleurs fabriquées avec passion et des matières premières exceptionnelles. \r
+\r
+Blés issus de la filière biologique et Label Rouge, dialogue direct avec les producteurs et originalité, c'est la recette de la Meilleure Boulangerie de France !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/c7/60c71551bdba3.jpg> ;
+    ns1:latitude "47.347026"^^xsd:float ;
+    ns1:longitude "5.041055"^^xsd:float ;
+    ns1:name "Du Pain Pour Demain (en précommande à J+1)" ;
+    ns1:opening_hours "Monday: 06:45-10:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/35-bagel-zee> a ns1:Restaurant ;
+    ns1:address "9 Rue du Chapeau Rouge, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/35-bagel-zee> ;
+    ns1:description """Caché au fond de la galerie Bossuet, vous trouverez les meilleurs bagels de Dijon. \r
+\r
+Salés ou sucrés, les créations d'Olivier vous régaleront midis et soirs !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/d2/60d2039ac8cf2.jpg> ;
+    ns1:latitude "47.32183"^^xsd:float ;
+    ns1:longitude "5.03677"^^xsd:float ;
+    ns1:name "Bagel Zée" ;
+    ns1:opening_hours "Monday: 11:30-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/37-u> a ns1:Restaurant ;
+    ns1:address "18 Place Émile Zola, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/37-u> ;
+    ns1:description """Découvrez le nouveau Noodle Bar dijonnais ! \r
+\r
+Fabriquées sur place par le chef Zhiliang, venez dégustez des recettes originales qui varient selon les saisons et l'humeur du moment.\r
+Noodles fraiches, légumes produits localement et ingrédients de qualité, la recette du bonheur à table !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d45d80d6e4.jpg> ;
+    ns1:latitude "47.3188"^^xsd:float ;
+    ns1:longitude "5.03528"^^xsd:float ;
+    ns1:name "Ǔ" ;
+    ns1:opening_hours "Thursday: 12:00-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/38-l-bout-d-la-rue> a ns1:Restaurant ;
+    ns1:address "52 Rue Verrerie, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/38-l-bout-d-la-rue> ;
+    ns1:description """1er restaurant de moules frites à s'installer à Dijon en 1991, on peut dire que les recettes font toujours succès.\r
+\r
+30 ans plus tard, Jérémy et Virginie perpétuent la cuisine familiale. \r
+Régalez vous avec des recettes originales préparées à partir de moules fraîches AOC Mont Saint Michel (de juin à fin février) et de véritables frites belges.\r
+\r
+A déguster à emporter ou en livraison !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd3b001c0.png> ;
+    ns1:latitude "47.3241"^^xsd:float ;
+    ns1:longitude "5.04398"^^xsd:float ;
+    ns1:name "L'bout d'la rue" ;
+    ns1:opening_hours "Tuesday: 12:00-14:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/4-la-menuiserie> a ns1:Restaurant ;
+    ns1:address "28 Rue des Godrans, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/4-la-menuiserie> ;
+    ns1:description """La Menuiserie, c’est un café restaurant locavore où est servie une cuisine savoureuse et engagée, un petit rade où boire un verre soigneusement sélectionné. \r
+\r
+Notre bistrot a obtenu la labellisation 3 ÉCOTABLES : qu’ils soient à boire ou à manger, nos produits sont locaux, nos légumes de saison et bio dans la mesure du possible, nos plats entièrement élaborés sur place avec amour. \r
+Nous nous fournissons en circuit-court chez les producteurs, principalement sous les halles de Dijon. Nous proposons des viandes locales, des plats végétariens et de quoi satisfaire tous les régimes. Nous souhaitons que soient respectés et valorisés l’ensemble des acteurs et collaborateurs, producteurs ou éleveurs.\r
+\r
+## COMMENT ÇA MARCHE ?\r
+\r
+Créez votre compte [sur Bocaux & Co.fr](https://conso.bocaux-and-co.fr), chargez votre cagnotte de consigne. Lors de la livraison, le coursier scannera votre QR code pour déduire les bocaux livrés de votre consigne. \r
+\r
+Vous n'avez pas de compte ou ne souhaitez pas en créer ? Pas de problème votre coursier pourra encaisser directement sur place la consigne.""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/3b/633b4355bec5f.png> ;
+    ns1:latitude "47.3245"^^xsd:float ;
+    ns1:longitude "5.0381"^^xsd:float ;
+    ns1:name "La Menuiserie" ;
+    ns1:opening_hours "Tuesday: 09:00-14:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/40-jaipur> a ns1:Restaurant ;
+    ns1:address "19 Rue d'Auxonne, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/40-jaipur> ;
+    ns1:description """Au Jaïpur, venez déguster la gastronomie indienne ! \r
+\r
+Une cuisine haute en couleur et en goût, cuisinée avec passion et soin par Anil et son équipe. \r
+\r
+Disponible sur place et en livraison, avec la même passion !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/54/61547e850f5ee.png> ;
+    ns1:latitude "47.31555"^^xsd:float ;
+    ns1:longitude "5.045554"^^xsd:float ;
+    ns1:name "Jaïpur" ;
+    ns1:opening_hours "Tuesday: 12:00-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/44-atelier-focaccia> a ns1:Restaurant ;
+    ns1:address "2 Place Émile Zola, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/44-atelier-focaccia> ;
+    ns1:description """Bienvenue à l'Atelier Focaccia !\r
+\r
+Découvrez la street food à l'italienne dijonnaise autour de la focaccia. \r
+Tout est fait maison à la mano. En effet, notre concept est la combinaison entre savoir faire boulanger et les produits que nous importons d'Italie.\r
+La pâte fermente pendant 48h pour une onctuosité et croustillant grâce à notre recette à l'huile d'olive extra vierge.\r
+\r
+Découvrez nos focaccia avec une fougasse, une soupe ou une salade d'accompagnement et nos desserts maison : tiramisu revisité, panna cotta et cookies\r
+\r
+![Insta](https://www.a2roo-dijon.fr/assets/insta.png) [atelier_focaccia](https://www.instagram.com/latelier_focaccia/)""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd4b5c38a.png> ;
+    ns1:latitude "47.3191"^^xsd:float ;
+    ns1:longitude "5.03488"^^xsd:float ;
+    ns1:name "Atelier Focaccia" ;
+    ns1:opening_hours "Tuesday: 11:30-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/46-l-audace-des-saveurs-le-midi> a ns1:Restaurant ;
+    ns1:address "36 bis Rue du Vingt-Sixième Dragons, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/46-l-audace-des-saveurs-le-midi> ;
+    ns1:description """L’Audace des Saveurs s’engage maintenant à régaler vos papilles pendant vos pauses déjeuners ! Notre volonté de créer des sandwichs haut de gamme avec des ingrédients sélectionnés soigneusement, vous pourrez mieux apprécier votre déjeuner sur le pouce.\r
+\r
+Retrouvez ici les sandwichs et salades signés Damien Audax, préparés chaque jour à la boutique et livrés par vos coursiers préférés !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/fc/61fcfda71d819.png> ;
+    ns1:latitude "47.333287"^^xsd:float ;
+    ns1:longitude "5.048597"^^xsd:float ;
+    ns1:name "L'Audace des Saveurs - Le midi" ;
+    ns1:opening_hours "Tuesday: 11:00-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/47-l-alsacien> a ns1:Restaurant ;
+    ns1:address "3 Rue Mably, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/47-l-alsacien> ;
+    ns1:description """L'Alsacien Dijon vous ouvre ses portes pour vous faire découvrir ou redécouvrir les tartes flambées (flammekueches) dans la plus pure tradition alsacienne. Nos Flammekueches, sur lesquelles vous découvrirez un bord tressé à la main en Alsace, sont issues d'un savoir-faire familial issu de plusieurs générations. Le concept de L'Alsacien arrive enfin en Bourgogne Franche-Comté avec l'ambition de ravir les fin palais bourguignons.\r
+\r
+Venez goûter nos Flammekueches traditionnelles accompagnées de nombreux produits locaux spécialement sélectionnés pour vous faire découvrir le terroir alsacien. Entre amis ou en famille, pour un événement professionnel ou un anniversaire, l'Alsace se rapproche encore un peu plus de chez vous !\r
+\r
+L'Alsacien vous propose également une carte de vins alsaciens sélectionnés auprès des meilleurs domaines vignerons d'Alsace (Achillée, Joseph Koehli ou encore Julien Klein). L'Alsacien met également à votre disposition des tireuses en libre service pour une ambiance festive et conviviale. Nous vous attendons avec impatience pour partager avec nous cette nouvelle expérience. S'gilt !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/0f/620f5fa6695db.png> ;
+    ns1:latitude "47.3232"^^xsd:float ;
+    ns1:longitude "5.03657"^^xsd:float ;
+    ns1:name "L'Alsacien" ;
+    ns1:opening_hours "Monday: 12:00-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner> a ns1:Restaurant ;
+    ns1:address "36 bis Rue du Vingt-Sixième Dragons, 21000 Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner> ;
+    ns1:description """100 % élaborées par nos soins, en version mini ou classique, nos viennoiseries variées vont vous faire commencer la journée avec le sourire.\r
+\r
+Vous avez des amis à la maison ou vous avez une réunion d’entreprise ? Faites-vous livrer votre petit-déjeuner où vous voulez à proximité de Dijon.\r
+\r
+Accompagné d’un café et d’un jus d’orange pressé main, nous allons vous donner envie d’apprécier le reste de votre journée.\r
+\r
+Découvrez nos formules petit-déjeuner en précommande dès le lendemain 7h.\r
+\r
+NOUVELLE FORMULE :\r
+=================\r
+\r
+Lorsque vous commandez en livraison, une partie du coût est supporté par votre restaurateur. Pour supporter cette charge supplémentaire, le restaurant augmente ses tarifs de l'ordre de 20 à 30%. \r
+\r
+>Nous vous proposons de changer la donne ensemble ! \r
+>Lorsque vous commandez à l'Audace des saveurs, vous payez une part plus importante de la livraison (1,5 € de plus) mais en contrepartie, votre traiteur propose ses plats **aux prix de l'emporté**. \r
+\r
+\r
+>Plus vous en prenez, plus vous y gagnez  !\r
+\r
+Une formule plus équitable pour tous.\r
+---------------------------""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/14/6214b43862e07.png> ;
+    ns1:latitude "47.333287"^^xsd:float ;
+    ns1:longitude "5.048597"^^xsd:float ;
+    ns1:name "L'audace des Saveurs - Le petit déjeuner" ;
+    ns1:opening_hours "Tuesday: 07:00-11:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/52-foodies> a ns1:Restaurant ;
+    ns1:address "6 Rue du Faubourg Raines, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/52-foodies> ;
+    ns1:description "Foodies truck, camion et restaurant sur Dijon et les environs. Découvrez notre cuisine authentique, et adhérez à la street food !" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/05/63050f5e348a5.png> ;
+    ns1:latitude "47.31833"^^xsd:float ;
+    ns1:longitude "5.0307842"^^xsd:float ;
+    ns1:name "Foodies" ;
+    ns1:opening_hours "Tuesday: 11:30-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/56-herbivoriste> a ns1:Restaurant ;
+    ns1:address "18 Avenue de la Concorde, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/56-herbivoriste> ;
+    ns1:description """Herbivoriste c'est un food bike 100% végétalien qui vous propose une cuisine de saison majoritairement locale et biologique. \r
+\r
+Une cuisine riche, colorée et pleine de saveurs !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/e8/62e8492806785.jpeg> ;
+    ns1:latitude "47.3519983"^^xsd:float ;
+    ns1:longitude "5.0429122"^^xsd:float ;
+    ns1:name "Herbivoriste" ;
+    ns1:opening_hours "Wednesday: 11:30-13:30" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/63-dubble> a ns1:Restaurant ;
+    ns1:address "66 Rue Devosge, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/63-dubble> ;
+    ns1:description """**EN CE MOMENT LIVRAISON OFFERTE AVEC LE CODE ETE2023**\r
+PROFITEZ-EN !\r
+\r
+Un déjeuner frais, sain, équilibré et gourmand, des produits frais préparés sur place.\r
+Des superfoods excellents pour la santé, des recettes originales, un très grand choix végétarien ou vegan.""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d45c7b48e4.png> ;
+    ns1:latitude "47.3265926"^^xsd:float ;
+    ns1:longitude "5.0399713"^^xsd:float ;
+    ns1:name "Dubble" ;
+    ns1:opening_hours "Monday: 11:30-15:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/69-chez-mes-soeurs-musette> a ns1:Restaurant ;
+    ns1:address "3 Rue Musette, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/69-chez-mes-soeurs-musette> ;
+    ns1:description """Nous sommes 3 sœurs : Anne-Sophie, Anne-Claire & Annabelle. Passionnées par la cuisine et le commerce et avons réuni nos talents pour vous proposer un concept de cuisine nomade unique. Vous pouvez prendre le temps de savourer sur place les spécialités faites maison avec amour dans notre laboratoire. Mieux encore, n'hésitez pas à accompagner votre dégustation d’une lecture choisie dans notre librairie solidaire.\r
+\r
+Il est possible de consommer sur place, en terrasse ou à emporter. Notre concept est de proposer une cuisine saine, faite maison qui valorise la cuisine du monde. Couleurs, épices, saveurs sont nos leitmotivs !\r
+\r
+Venez déguster nos spécialités à n’importe quelle heure de la journée : petit déjeuner, déjeuner et même au goûter dans une ambiance propice à la détente !\r
+\r
+Comment ça marche ?\r
+======\r
+\r
+MERCI DE PRÉCOMMANDER JUSQU'À 12H00 LE JOUR J POUR UNE LIVRAISON ENTRE 11H30 ET 18H\r
+\r
+----""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/e3/63e37e513817d.png> ;
+    ns1:latitude "47.3226997"^^xsd:float ;
+    ns1:longitude "5.0405206"^^xsd:float ;
+    ns1:name "Chez Mes Soeurs - Musette" ;
+    ns1:opening_hours "Tuesday: 10:30-18:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/70-chez-mes-soeurs-concorde> a ns1:Restaurant ;
+    ns1:address "10 Avenue de la Concorde, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/70-chez-mes-soeurs-concorde> ;
+    ns1:description """Nous sommes 3 sœurs : Anne-Sophie, Anne-Claire & Annabelle. Passionnées par la cuisine et le commerce et avons réuni nos talents pour vous proposer un concept de cuisine nomade unique. Vous pouvez prendre le temps de savourer sur place les spécialités faites maison avec amour dans notre laboratoire. Mieux encore, n'hésitez pas à accompagner votre dégustation d’une lecture choisie dans notre librairie solidaire.\r
+\r
+Il est possible de consommer sur place, en terrasse ou à emporter. Notre concept est de proposer une cuisine saine, faite maison qui valorise la cuisine du monde. Couleurs, épices, saveurs sont nos leitmotivs !\r
+\r
+Venez déguster nos spécialités à n’importe quelle heure de la journée : petit déjeuner, déjeuner et même au goûter dans une ambiance propice à la détente !\r
+\r
+Comment ça marche ?\r
+======\r
+\r
+MERCI DE PRÉCOMMANDER JUSQU'À 11H30 LE JOUR J POUR UNE LIVRAISON ENTRE 11H30 ET 18H\r
+\r
+----""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/e3/63e37da8dbea1.png> ;
+    ns1:latitude "47.3513401"^^xsd:float ;
+    ns1:longitude "5.0418762"^^xsd:float ;
+    ns1:name "Chez Mes Soeurs - Concorde" ;
+    ns1:opening_hours "Monday: 10:30-18:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/71-apero-and-co> a ns1:Restaurant ;
+    ns1:address "34 Rue du Bourg, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/71-apero-and-co> ;
+    ns1:description """Pour vos soirées, Apéro and Co vous propose une sélection de charcuteries et fromages sous forme de box thématiques, saucissons, bières et boissons.\r
+\r
+Également pour le midi, une sélection de sandwichs à déguster sur le pouce !""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/07/6407258707888.jpg> ;
+    ns1:latitude "47.321207"^^xsd:float ;
+    ns1:longitude "5.039403"^^xsd:float ;
+    ns1:name "Apéro and Co" ;
+    ns1:opening_hours "Wednesday: 11:30-18:00, Saturday: 11:30-14:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/73-tex-a-way> a ns1:Restaurant ;
+    ns1:address "19 Rue Bossuet, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/73-tex-a-way> ;
+    ns1:description """Tous les jours, nous confectionnons une cuisine maison, avec amour !\r
+\r
+Un engagement éco-responsable et anti-gaspi au quotidien.\r
+\r
+Le plaisir de vous servir, de partager un moment agréable et vous offrir bien plus qu’un sourire…""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/6f/646f0889852df.jpg> ;
+    ns1:latitude "47.321477"^^xsd:float ;
+    ns1:longitude "5.0376181"^^xsd:float ;
+    ns1:name "Tex A Way" ;
+    ns1:opening_hours "Wednesday: 12:00-14:00" .
+
+<https://a2roo.coopcycle.org/fr/restaurant/75-chez-toque> a ns1:Restaurant ;
+    ns1:address "19 Rue de la Poste, Dijon, France" ;
+    ns1:delivery_url <https://a2roo.coopcycle.org/fr/restaurant/75-chez-toque> ;
+    ns1:description """Chez Toque, c'est un restaurant - salon de thé convivial et atypique où il fait bon venir se régaler en famille ou entre amis.\r
+Un espace est entièrement dédié aux enfants afin de vous permettre de profiter d'un temps pour vous.\r
+\r
+Nous vous proposons le midi une carte de saison et des plats du jour ainsi que pour vos goûters, une carte de pâtisseries homemade préparées avec le coeur.\r
+\r
+Les vendredis et samedis soirs, Chez Toque troque sa casquette de salon de thé pour devenir restaurant. Dégustez des bons plats faits maisons avec des produits frais, accompagnés d'une carte locale et artisanale de vins et de bières, jus de fruits et limonades.""" ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/28/65281c21d7e24.jpeg> ;
+    ns1:latitude "47.3233394"^^xsd:float ;
+    ns1:longitude "5.0355488"^^xsd:float ;
+    ns1:name "Chez Toque" ;
+    ns1:opening_hours "Wednesday: 12:00-14:00, Friday: 12:00-14:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/13-l-adresse> a ns1:Restaurant ;
+    ns1:address "70 Rue des Jacobins, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99b52630c2125136586.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/13-l-adresse> ;
+    ns1:description "Spécialités Italiennes - Pizzas" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/24/6024f528d6265.jpg> ;
+    ns1:latitude "49.8905"^^xsd:float ;
+    ns1:longitude "2.30171"^^xsd:float ;
+    ns1:name "L'Adresse" ;
+    ns1:opening_hours "Monday: 12:00-14:00, Tuesday: 19:00-21:15" .
+
+<https://beefast.coopcycle.org/fr/restaurant/21-robin-room> a ns1:Restaurant ;
+    ns1:address "9 Rue Flatters, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99af242e70.jpeg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/21-robin-room> ;
+    ns1:description """Le Robin Room est une cuisine maison à base de produits frais confectionnés avec amour chaque matin par notre équipe. Vous y trouverez des plats simples, généreux et originaux évoluant  au fil des inspirations métissées de la cheffe et dans le respect de la saisonnalité des produits. \r
+Le Robin Room c’est aussi et avant tout une aventure humaine aux côtés de collaborateurs qui partagent les mêmes valeurs et une passion commune pour les bons produits.""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/65/cd/65cd3b6df2616.png> ;
+    ns1:latitude "49.8953"^^xsd:float ;
+    ns1:longitude "2.29935"^^xsd:float ;
+    ns1:name "Robin Room" ;
+    ns1:opening_hours "Tuesday: 12:00-14:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/22-moana-poke> a ns1:Restaurant ;
+    ns1:address "5 Rue Henri Barbusse, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99acc4d1f8.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/22-moana-poke> ;
+    ns1:description """🌺Poke Bowl 🌺\r
+Healthy, fresh and tasty / Home made 🍍\r
+🌴Hawaiian food🌴""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/bc/60bcffb19e0bf.jpg> ;
+    ns1:latitude "49.8934"^^xsd:float ;
+    ns1:longitude "2.29413"^^xsd:float ;
+    ns1:name "Moana Poké 🌺" ;
+    ns1:opening_hours "Monday: 11:45-14:00, Tuesday: 18:45-22:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/23-la-manufacture> a ns1:Restaurant ;
+    ns1:address "5 Rue de Metz, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99aa8e4006.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/23-la-manufacture> ;
+    ns1:description "Bar - Brasserie" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/d4/60d453c0283d4.jpg> ;
+    ns1:latitude "49.8951"^^xsd:float ;
+    ns1:longitude "2.29528"^^xsd:float ;
+    ns1:name "La Manufacture" ;
+    ns1:opening_hours "Tuesday: 12:00-14:30, Tuesday: 18:45-22:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/28-la-mamma-mia> a ns1:Restaurant ;
+    ns1:address "169 Avenue du Général Foy, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99a57e54fb.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/28-la-mamma-mia> ;
+    ns1:description """La véritable cuisine traditionnelle Italienne préparée avec amour par Léo et son équipe.\r
+Pizzas élaborées sur place, tiramisu, cannolo sicilien et bien d'autres plats typiques... De quoi faire un superbe voyage culinaire 😍""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/0b/620b60bf4fef7.png> ;
+    ns1:latitude "49.889212"^^xsd:float ;
+    ns1:longitude "2.281453"^^xsd:float ;
+    ns1:name "La Mamma Mia" ;
+    ns1:opening_hours "Tuesday: 11:45-13:30, Tuesday: 19:00-21:30, Friday: 19:00-22:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/30-mealk> a ns1:Restaurant ;
+    ns1:address "14 Avenue Paul Claudel, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f99b74bc4c8.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/30-mealk> ;
+    ns1:description """Mealk vous propose une cantine du midi, épicerie & fromagerie avec un maximum de produits bio & locaux avec pour base des produits laitiers sublimés par une cuisine de savoir faire et de tradition. \r
+\r
+La carte est évolutive en fonction des saisons !""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/3c/623c3c947b9c6.jpeg> ;
+    ns1:latitude "49.875537"^^xsd:float ;
+    ns1:longitude "2.277711"^^xsd:float ;
+    ns1:name "Mealk" ;
+    ns1:opening_hours "Monday: 10:30-14:45, Monday: 18:00-19:00" .
+
+<https://beefast.coopcycle.org/fr/restaurant/31-via-pizza> a ns1:Restaurant ;
+    ns1:address "5 Rue des Sergents, 80000 Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f999305d232.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/31-via-pizza> ;
+    ns1:description "Chez Via Pizza, nous nous inspirons de la tradition italienne, tout en rajoutant le bon goût à la Française, en vous proposant par exemple la pizza Regina (reine), une invention bien de chez nous. Notre carte en un subtil mélange de ces deux cultures pour le plaisir des grandes et des petites faims." ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/4b/624b439d98d71.jpg> ;
+    ns1:latitude "49.8939"^^xsd:float ;
+    ns1:longitude "2.29834"^^xsd:float ;
+    ns1:name "Via Pizza" ;
+    ns1:opening_hours "Monday: 12:00-14:30, Tuesday: 19:00-21:45, Friday: 19:00-22:15" .
+
+<https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa> a ns1:Restaurant ;
+    ns1:address "12 Rue Flatters, Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f998f2eb3d8.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa> ;
+    ns1:description """Ici tout est fait maison avec des produits frais et locaux ou importés directement  d'Italie.\r
+Notre Ristorante Italien Chez Rosa, vous accueillera dans une ambiance conviviale et familiale.\r
+Vous pourrez y déguster de délicieuses pizzas et spécialités Italiennes.""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/65/cd/65cd3b5a0ad45.jpg> ;
+    ns1:latitude "49.8956228"^^xsd:float ;
+    ns1:longitude "2.2998668"^^xsd:float ;
+    ns1:name "Chez Rosa" ;
+    ns1:opening_hours "Tuesday: 12:00-14:00, Tuesday: 19:00-22:00, Friday: 19:00-22:15" .
+
+<https://beefast.coopcycle.org/fr/restaurant/35-le-teuf> a ns1:Restaurant ;
+    ns1:address "105 Rue Lucien Lecointe, Amiens, France" ;
+    ns1:banner_image <https://beefast.coopcycle.org/media/cache/restaurant_banner/65/f9/65f998caabbf8.jpg> ;
+    ns1:delivery_url <https://beefast.coopcycle.org/fr/restaurant/35-le-teuf> ;
+    ns1:description """Pizza de tradition depuis 1971 !  🇮🇹  Depuis 50 ans, la pizzeria Le Teuf à Amiens vous accueille pour partager son savoir faire. Des savoureuses pizzas préparées et cuites devant vous dans la pure tradition italienne et dans une ambiance conviviale ! \r
+\r
+© Franck Burges""" ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/90/6490679b3b650.jpg> ;
+    ns1:latitude "49.9062975"^^xsd:float ;
+    ns1:longitude "2.3088272"^^xsd:float ;
+    ns1:name "Le Teuf" ;
+    ns1:opening_hours "Tuesday: 19:00-21:30, Friday: 19:00-22:00, Monday: 12:00-13:35" .
+
+<https://biclooo.coopcycle.org/fr/restaurant/18-au-passage> a ns1:Restaurant ;
+    ns1:address "21 Place Du Bourg, 12000 Rodez, France" ;
+    ns1:delivery_url <https://biclooo.coopcycle.org/fr/restaurant/18-au-passage> ;
+    ns1:description "Piadinerie au cœur du centre-ville. Produits exclusivement frais, locaux et/ou artisanaux." ;
+    ns1:image <https://biclooo.coopcycle.org/media/cache/restaurant_thumbnail/61/69/6169be2dc8d9e.jpg> ;
+    ns1:latitude "44.348449"^^xsd:float ;
+    ns1:longitude "2.576083"^^xsd:float ;
+    ns1:name "Au Passage" ;
+    ns1:opening_hours "Friday: 19:00-22:00" .
+

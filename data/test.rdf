@@ -1,0 +1,961 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="http://schema.org/"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3">
+        <owl:imports rdf:resource="file:/C:/Users/Martin/Documents/GitHub/web-semantics-food-delivery-app/restaurants.ttl"/>
+        <owl:imports rdf:resource="file:/C:/Users/victo/Desktop/semantics/project%20web%20sem/web-semantics-food-delivery-app/restaurants.ttl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasAvailability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasAvailability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasDeliveryService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasDeliveryService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasEmail -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasEmail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#email"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#location"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasPreference -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasPreference">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#hasPrice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#isAdult -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#isAdult">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#isOpen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#isOpen">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Restaurants"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#locatedInCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#locatedInCity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#orderedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#orderedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#servesFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#servesFood">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/address -->
+
+    <rdf:Description rdf:about="http://schema.org/address">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#location"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <rdf:Description rdf:about="http://schema.org/name">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#name"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Vegetarian -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Vegetarian">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#age">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#deliveryTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#deliveryTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#email"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#location">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#price">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#servesFood -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#servesFood">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/Restaurant -->
+
+    <owl:Class rdf:about="http://schema.org/Restaurant">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Restaurants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#CategoryFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#CategoryFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ChineseFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ChineseFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#isAdult"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DessertDish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DessertDish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MealType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FoodItem"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#CategoryFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FoodItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FoodItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FoodItem">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#price"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FrenchFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FrenchFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#JapaneseFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#JapaneseFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Juices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Juices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MainDish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MainDish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MealType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MealType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MealType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MeatFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MeatFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#CategoryFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OriginFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#RedWine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#RedWine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Wine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Restaurants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Restaurants">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#servesFood"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FoodItem"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#StarterDish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#StarterDish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MealType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#UserPreferences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#UserPreferences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VegetarianFood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VegetarianFood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#CategoryFood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#WhiteWine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#WhiteWine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Wine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Wine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Wine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#AnanasJuice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#AnanasJuice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Juices"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#AppleJuice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#AppleJuice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Juices"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Charles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Charles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</untitled-ontology-3:age>
+        <untitled-ontology-3:deliveryTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-3:deliveryTime>
+        <untitled-ontology-3:location>Lyon</untitled-ontology-3:location>
+        <untitled-ontology-3:name>Charles</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ChickenWings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ChickenWings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MeatFood"/>
+        <untitled-ontology-3:name>ChickenWings</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Chloe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Chloe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Chloe</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Coca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Coca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda"/>
+        <untitled-ontology-3:name>Coca</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Fanta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Fanta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda"/>
+        <untitled-ontology-3:name>Fanta</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishBowl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishBowl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood"/>
+        <untitled-ontology-3:name>FishBowl</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishNChips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishNChips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood"/>
+        <untitled-ontology-3:name>FishNChips</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FlatWater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FlatWater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Water"/>
+        <untitled-ontology-3:name>FlatWater</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#IceTea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#IceTea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda"/>
+        <untitled-ontology-3:name>IceTea</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Julie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Julie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Julie</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Marc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Marc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</untitled-ontology-3:age>
+        <untitled-ontology-3:location>Paris</untitled-ontology-3:location>
+        <untitled-ontology-3:name>Marc</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MineralWater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MineralWater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Water"/>
+        <untitled-ontology-3:name>MineralWater</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Monica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Monica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Person"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Monica</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Oasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Oasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda"/>
+        <untitled-ontology-3:name>Oasis</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer"/>
+        <untitled-ontology-3:orderedBy rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Tom"/>
+        <untitled-ontology-3:deliveryTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</untitled-ontology-3:deliveryTime>
+        <untitled-ontology-3:location>Paris</untitled-ontology-3:location>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.2</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer"/>
+        <untitled-ontology-3:orderedBy rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Rose"/>
+        <untitled-ontology-3:deliveryTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</untitled-ontology-3:deliveryTime>
+        <untitled-ontology-3:location>Toulouse</untitled-ontology-3:location>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Offer"/>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OrangeJuice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#OrangeJuice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Juices"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Pierre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Pierre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Pierre</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#PowerBowl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#PowerBowl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VegetarianFood"/>
+        <untitled-ontology-3:name>PowerBowl</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Roger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Roger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Roger</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Rose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Rose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Rose</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol"/>
+        <untitled-ontology-3:name>Sake</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Salmon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Salmon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood"/>
+        <untitled-ontology-3:name>Salmon</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sausage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sausage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MeatFood"/>
+        <untitled-ontology-3:name>Sausage</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soju -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soju">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol"/>
+        <untitled-ontology-3:name>Soju</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#SparklingWater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#SparklingWater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Water"/>
+        <untitled-ontology-3:name>SparklingWater</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sprite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sprite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Soda"/>
+        <untitled-ontology-3:name>Sprite</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Steak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Steak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MeatFood"/>
+        <untitled-ontology-3:name>Steak</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Stephanie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Stephanie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Stephanie</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sushi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sushi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#FishFood"/>
+        <untitled-ontology-3:name>Sushi</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sylvia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Sylvia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DeliveryDriver"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Sylvia</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Tom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Tom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Tom</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#UserPref1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#UserPref1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#UserPreferences"/>
+        <untitled-ontology-3:location>Paris</untitled-ontology-3:location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VeggiSteak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VeggiSteak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#VegetarianFood"/>
+        <untitled-ontology-3:name>VeggiSteak</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Violette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Violette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Customer"/>
+        <untitled-ontology-3:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</untitled-ontology-3:age>
+        <untitled-ontology-3:name>Violette</untitled-ontology-3:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Whisky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Whisky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#Alcohol"/>
+        <untitled-ontology-3:name>Whisky</untitled-ontology-3:name>
+        <untitled-ontology-3:price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</untitled-ontology-3:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://a2roo.coopcycle.org/fr/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1 -->
+
+    <owl:NamedIndividual rdf:about="https://a2roo.coopcycle.org/fr/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1">
+        <untitled-ontology-3:Vegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-3:Vegetarian>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://a2roo.coopcycle.org/fr/restaurant/40-jaipur -->
+
+    <owl:NamedIndividual rdf:about="https://a2roo.coopcycle.org/fr/restaurant/40-jaipur">
+        <untitled-ontology-3:Vegetarian rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</untitled-ontology-3:Vegetarian>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://beefast.coopcycle.org/fr/restaurant/28-la-mamma-mia -->
+
+    <owl:NamedIndividual rdf:about="https://beefast.coopcycle.org/fr/restaurant/28-la-mamma-mia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood"/>
+        <untitled-ontology-3:servesFood>Italian</untitled-ontology-3:servesFood>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://beefast.coopcycle.org/fr/restaurant/31-via-pizza -->
+
+    <rdf:Description rdf:about="https://beefast.coopcycle.org/fr/restaurant/31-via-pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood"/>
+        <untitled-ontology-3:servesFood>Italian</untitled-ontology-3:servesFood>
+    </rdf:Description>
+    
+
+
+    <!-- https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa -->
+
+    <rdf:Description rdf:about="https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#ItalianFood"/>
+        <untitled-ontology-3:servesFood>Italian</untitled-ontology-3:servesFood>
+    </rdf:Description>
+    
+
+
+    <!-- https://biclooo.coopcycle.org/fr/restaurant/18-au-passage -->
+
+    <rdf:Description rdf:about="https://biclooo.coopcycle.org/fr/restaurant/18-au-passage">
+        <untitled-ontology-3:email>rantoni8peperoni@gmail.com</untitled-ontology-3:email>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#DessertDish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#MainDish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2024/2/untitled-ontology-3#StarterDish"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
